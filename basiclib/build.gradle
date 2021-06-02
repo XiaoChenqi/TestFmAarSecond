@@ -57,59 +57,59 @@ dependencies {
     api 'com.gyf.barlibrary:barlibrary:2.3.0'
     //TOdo xcq
     //二维码扫描
-//    api 'com.github.xh2015.fmtool:scan:1.0.11'
-//    //网络请求
-//    api 'com.github.xh2015.fmtool:network:1.0.13'
-//    //banner
-//    api 'com.bigkoo:ConvenientBanner:2.1.1'
-//    api 'com.youth.banner:banner:1.4.10'
-//    //图片选择
-//    api('com.github.xh2015.PictureSelector:picture_library:v3.1.4') {
-//        exclude group: 'com.android.support'
-//    }
-//    //util
-//    api 'com.blankj:utilcode:1.23.7'
-//    //A circular ImageView for Android
-//    api 'de.hdodenhof:circleimageview:2.2.0'
-//    //item侧滑菜单
-//    api 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
-//    api "com.android.support:exifinterface:25.3.1"
-//    //时间选择
-//    api 'com.contrarywind:Android-PickerView:4.1.9'
-//    //65536
-//    api 'com.android.support:multidex:1.0.1'
-//    //星星等级
-//    api 'com.iarcuschin:simpleratingbar:0.1.5'
-//    //空布局
-//    api 'com.github.czy1121:loadinglayout:1.0.1'
-//    //rxandroid
-//    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
-//    //rxjava
-//    api "io.reactivex.rxjava2:rxjava:2.2.2"
-//    //图表
-//    api 'com.github.PhilJay:MPAndroidChart:v3.0.2'
-//    //流式布局
-//    api 'com.hyman:flowlayout-lib:1.1.2'
-//    //日历布局
-//    api 'com.haibin:calendarview:3.6.8'
-//    //页签
-//    api 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
-//    //圆角imageview
-//    api 'com.makeramen:roundedimageview:2.3.0'
-//    //录音
-//    api ('com.github.zhaolewei:ZlwAudioRecorder:v1.07'){
-//        exclude group: "com.android.support"
-//    }
-//    //录制视频
-//    api 'com.github.xh2015.fmtool:camera2:1.0.16'
-//    //AgentWeb webview加强
-//    api 'com.just.agentweb:agentweb:4.1.3'
-//    api ('com.shuyu:gsyVideoPlayer-java:6.0.3'){
-//        exclude group: 'com.android.support'
-//    }
-//    api ('com.shuyu:gsyVideoPlayer-arm64:6.0.3'){
-//        exclude group: 'com.android.support'
-//    }
+    api 'com.github.xh2015.fmtool:scan:1.0.11'
+    //网络请求
+    api 'com.github.xh2015.fmtool:network:1.0.13'
+    //banner
+    api 'com.bigkoo:ConvenientBanner:2.1.1'
+    api 'com.youth.banner:banner:1.4.10'
+    //图片选择
+    api('com.github.xh2015.PictureSelector:picture_library:v3.1.4') {
+        exclude group: 'com.android.support'
+    }
+    //util
+    api 'com.blankj:utilcode:1.23.7'
+    //A circular ImageView for Android
+    api 'de.hdodenhof:circleimageview:2.2.0'
+    //item侧滑菜单
+    api 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
+    api "com.android.support:exifinterface:25.3.1"
+    //时间选择
+    api 'com.contrarywind:Android-PickerView:4.1.9'
+    //65536
+    api 'com.android.support:multidex:1.0.1'
+    //星星等级
+    api 'com.iarcuschin:simpleratingbar:0.1.5'
+    //空布局
+    api 'com.github.czy1121:loadinglayout:1.0.1'
+    //rxandroid
+    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    //rxjava
+    api "io.reactivex.rxjava2:rxjava:2.2.2"
+    //图表
+    api 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    //流式布局
+    api 'com.hyman:flowlayout-lib:1.1.2'
+    //日历布局
+    api 'com.haibin:calendarview:3.6.8'
+    //页签
+    api 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    //圆角imageview
+    api 'com.makeramen:roundedimageview:2.3.0'
+    //录音
+    api ('com.github.zhaolewei:ZlwAudioRecorder:v1.07'){
+        exclude group: "com.android.support"
+    }
+    //录制视频
+    api 'com.github.xh2015.fmtool:camera2:1.0.16'
+    //AgentWeb webview加强
+    api 'com.just.agentweb:agentweb:4.1.3'
+    api ('com.shuyu:gsyVideoPlayer-java:6.0.3'){
+        exclude group: 'com.android.support'
+    }
+    api ('com.shuyu:gsyVideoPlayer-arm64:6.0.3'){
+        exclude group: 'com.android.support'
+    }
 }
 
 //uploadArchives {
