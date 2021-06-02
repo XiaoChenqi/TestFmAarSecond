@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--列表、详情 状态标签-->
+    <dimen name="tag_text_size">@dimen/sp_10</dimen>
+    <color name="tag_text_color">@color/white</color>
+    <!--字体白色 11sp 左右4dp -->
+    <style name="tag_text_style">
+        <item name="android:textSize">@dimen/tag_text_size</item>
+        <item name="android:textColor">@color/tag_text_color</item>
+        <item name="android:paddingLeft">@dimen/dp_3</item>
+        <item name="android:paddingRight">@dimen/dp_3</item>
+        <item name="android:paddingTop">@dimen/dp_2</item>
+        <item name="android:paddingBottom">@dimen/dp_2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

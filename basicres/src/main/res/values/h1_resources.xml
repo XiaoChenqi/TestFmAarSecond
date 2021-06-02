@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--一级标题 (如 topbar标题) (注意：如果不一样不要在这里修改，请在引入后内部覆盖修改)-->
+    <dimen name="h1_text_size">@dimen/sp_18</dimen>
+    <color name="h1_text_color">@color/white</color>
+
+    <style name="h1_text_style">
+        <item name="android:textSize">@dimen/h1_text_size</item>
+        <item name="android:textColor">@color/h1_text_color</item>
+    </style>
+</resources>

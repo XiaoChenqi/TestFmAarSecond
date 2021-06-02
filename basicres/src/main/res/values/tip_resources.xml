@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--类似editView内的tip  (注意：如果不一样不要在这里修改，请在引入后内部覆盖修改)-->
+    <dimen name="tip_text_size">@dimen/sp_11</dimen>
+    <color name="tip_text_color">@color/grey_9</color>
+
+    <style name="tip_text_style">
+        <item name="android:textSize">@dimen/tip_text_size</item>
+        <item name="android:textColor">@color/tip_text_color</item>
+    </style>
+
+    <!--个别tip 类似在editView右下显示剩余多少字那种-->
+    <dimen name="other_tip_text_size">@dimen/sp_9</dimen>
+    <color name="other_tip_text_color">@color/grey_6</color>
+
+    <style name="other_tip_text_style">
+        <item name="android:textSize">@dimen/other_tip_text_size</item>
+        <item name="android:textColor">@color/other_tip_text_color</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--二级标题 (次级标题 如页面包含tab tab标题) (注意：如果不一样不要在这里修改，请在引入后内部覆盖修改)-->
+    <dimen name="h2_text_size">@dimen/sp_16</dimen>
+    <color name="h2_text_color">@color/grey_3</color>
+
+    <style name="h2_text_style">
+        <item name="android:textSize">@dimen/h2_text_size</item>
+        <item name="android:textColor">@color/h2_text_color</item>
+    </style>
+</resources>

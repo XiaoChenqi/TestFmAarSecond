@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="contentTitleLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_50</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/dp_15</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+    </style>
+
+    <style name="demandWorkTitleIconStyle">
+        <item name="android:layout_width">@dimen/dp_6</item>
+        <item name="android:layout_height">@dimen/dp_17</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="material_add_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:editable">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:textColorHint">@color/grey_c</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/grey_6</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="payment_charges_edit_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:editable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:textColorHint">@color/grey_c</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/grey_6</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+</resources>

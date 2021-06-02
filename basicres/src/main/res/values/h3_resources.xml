@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--三级标题 (页面内每条数据的标题) (注意：如果不一样不要在这里修改，请在引入后内部覆盖修改)-->
+    <dimen name="h3_text_size">@dimen/sp_15</dimen>
+    <color name="h3_text_color">@color/grey_3</color>
+
+    <style name="h3_text_style">
+        <item name="android:textSize">@dimen/h3_text_size</item>
+        <item name="android:textColor">@color/h3_text_color</item>
+    </style>
+</resources>

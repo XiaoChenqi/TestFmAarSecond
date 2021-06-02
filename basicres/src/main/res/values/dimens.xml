@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--全局右边距-->
+    <dimen name="common_global_right_padding_margin">15dp</dimen>
+</resources>

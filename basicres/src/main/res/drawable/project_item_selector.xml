@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/fm_tag_fill_white_grey_line_press_bg"/>
+    <item android:drawable="@drawable/fm_tag_fill_white_grey_line_bg"/>
+
+</selector>

@@ -1,2 +1,5 @@
 rootProject.name='TestFmAarSecond'
 include ':app'
+//include ':basicres'
+include ':testlib1'
+include ':basicres'

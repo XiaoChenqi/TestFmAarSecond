@@ -27,3 +27,18 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+ext {
+    versionCode = 1
+    versionName_app = '0.0.0'
+    //todo xcq
+    // versionName_lib = '1.0.0'
+    versionName_lib = '0.0.0'
+
+    libMinSdkVersion = 21
+    appMinSdkVersion = 21
+    targetSdkVersion = 25
+    compileSdkVersion = 26
+    buildToolsVersion = '26.0.0'
+    supportVersion = '26.0.0'
+}
+

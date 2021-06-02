@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--sp 13 color red-->
+    <dimen name="cost_text_size">@dimen/sp_15</dimen>
+    <color name="cost_text_color">@color/red_ff3a30</color>
+
+    <style name="cost_text_style">
+        <item name="android:textSize">@dimen/cost_text_size</item>
+        <item name="android:textColor">@color/cost_text_color</item>
+    </style>
+</resources>

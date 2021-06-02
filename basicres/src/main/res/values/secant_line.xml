@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--实线-->
+    <color name="secant_line_color">@color/grey_d6</color>
+    <dimen name="secant_line_dimen">@dimen/dp_0.4</dimen>
+
+    <style name="secant_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/secant_line_color</item>
+        <item name="android:layout_height">@dimen/secant_line_dimen</item>
+    </style>
+
+    <!--虚线-->
+    <dimen name="dash_line_dimen">@dimen/dp_1</dimen>
+
+    <style name="dash_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/dash_line</item>
+        <item name="android:layout_height">@dimen/dash_line_dimen</item>
+        <item name="android:layerType">software</item>
+    </style>
+</resources>

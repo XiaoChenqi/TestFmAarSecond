@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="transparent">#00000000</color>
+    <!--状态栏透明度-->
+    <color name="bar_transparent">#40000000</color>
+    <!--侧滑菜单遮罩的透明度-->
+    <color name="drawer_menu_transparent">#40000000</color>
+
+    <!--白色 ➡ ️黑色 中间颜色-->
+    <color name="grey_c">#CCCCCC</color>
+    <color name="grey_9">#999999</color>
+    <color name="grey_28">#282828</color>
+    <color name="grey_6">#666666</color>
+    <color name="grey_3">#333333</color>
+    <color name="grey_d6">#d6d6d6</color>
+    <color name="grey_f6">#f6f6f6</color>
+    <color name="grey_96">#969696</color>
+    <color name="grey_e6">#e6e6e6</color>
+    <color name="grey_f7">#f7f7f7</color>
+    <color name="grey_80">#808080</color>
+    <color name="grey_87">#878787</color>
+    <color name="grey_ba">#bababa</color>
+    <color name="grey_b2">#b2b2b2</color>
+    <color name="grey_b3">#b3b3b3</color>
+    <color name="grey_de">#dedede</color>
+    <color name="grey_47">#474747</color>
+    <color name="grey_4d">#4d4d4d</color>
+    <color name="grey_f2">#f2f2f2</color>
+    <color name="grey_f2f4f3">#f2f4f3</color>
+    <color name="grey_e1ecf2">#e1ecf2</color>
+    <color name="grey_E_5">#e5e5e5</color>
+
+    <!--绿色-->
+    <color name="green_5eba15">#5eba15</color>
+    <color name="green_ff5eba15">#ff5eba15</color>
+    <color name="green_54a612">#54a612</color>
+    <color name="green_1ab394">#1ab394</color>
+    <color name="green_90D2C5">#90D2C5</color>
+    <color name="green_91d9ae">#91d9ae</color>
+    <color name="green_3cbc70">#3cbc70</color>
+    <color name="green_74bc3a">#74bc3a</color>
+
+    <!--红色-->
+    <color name="red_presses">#cd5b55</color>
+    <color name="red_normal">#dd6b55</color>
+    <color name="red_ff2626">#ff2626</color>
+    <color name="red_ff6666">#ff6666</color>
+    <color name="red_ff3a30">#ff3a30</color>
+    <color name="red_f55858">#f55858</color>
+
+    <!--蓝色-->
+    <color name="blue_presses">#90d7e9</color>
+    <color name="blue_normal">#10aeff</color>
+    <color name="blue_8262ce">#8262ce</color>
+    <color name="blue_5F65D8">#5F65D8</color>
+    <color name="blue_88c8e8">#88c8e8</color>
+    <color name="blue_159fe6">#159fe6</color>
+    <color name="blue_10aeff">#10aeff</color>
+
+    <!--橙色-->
+    <color name="orange_ff9900">#ff9900</color>
+    <color name="orange_ff9f0e">#ff9f0e</color>
+
+    <!--不可用按钮颜色-->
+    <color name="status_disable">#dedede</color>
+
+    <!--list item 背景色-->
+    <color name="list_item_normal">@color/white</color>
+    <color name="list_item_selected">@color/grey_d6</color>
+
+    <!--取消按钮颜色-->
+    <color name="btn_cancel_select">#b3b3b3</color>
+    <color name="btn_cancel_normal">@color/grey_c</color>
+
+    <!--列表等无数据时的背景色等-->
+    <color name="view_empty_bg">#f0f0f0</color>
+    <color name="view_empty_txt">#48495f</color>
+
+    <color name="project_item_bg">#dfe3e5</color> <!--灰色14 -->
+
+    <!--app背景色-->
+    <color name="app_bg">@color/grey_f2</color>
+
+    <!--消息侧滑菜单颜色-->
+    <color name="msg_grey">#d9dee4</color>
+    <color name="msg_yellow">#ecd50a</color>
+    <color name="msg_red">#ff4a57</color>
+    <color name="msg_blue">#10aeff</color>
+    <color name="msg_orange">#ff9900</color>
+
+    <!--底部弹窗取消的颜色-->
+    <color name="bottom_sheet_cancel_red">#ff3a30</color>
+    <color name="bottom_sheet_cancel_grey">#b3b3b3</color>
+
+    <!--离线下载色-->
+    <color name="outline_press">@color/green_54a612</color>
+    <!--搜索框hint颜色-->
+    <color name="search_hint">#c6cacc</color>
+    <!--被选择项目颜色-->
+    <color name="project_select">@color/green_5eba15</color>
+    <!--蓝色-->
+    <color name="tag_order_blue">#10aeff</color>
+    <!--文本蓝色-->
+    <color name="content_text_blue">#0e9de7</color>
+    <!--主题色-->
+    <color name="colorPrimary">#1ab394</color>
+    <color name="colorPrimaryDark">#1ab394</color>
+    <color name="colorPrimarySelect">#18a689</color>
+    <color name="colorAccent">#1ab394</color>
+
+</resources>

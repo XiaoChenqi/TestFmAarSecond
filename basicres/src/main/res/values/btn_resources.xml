@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_text_15">@dimen/sp_15</dimen>
+    <dimen name="btn_height_40">@dimen/dp_40</dimen>
+    <color name="btn_text_color">@color/white</color>
+
+    <!--主题颜色为背景的button-->
+    <style name="btn_main_color_style">
+        <item name="android:textSize">@dimen/btn_text_15</item>
+        <item name="android:textColor">@color/btn_text_color</item>
+        <item name="android:background">@drawable/btn_common_bg_selector</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height_40</item>
+    </style>
+
+    <!--主题绿色为背景的button-->
+    <style name="btn_main_green_color_style">
+        <item name="android:textSize">@dimen/btn_text_15</item>
+        <item name="android:textColor">@color/btn_text_color</item>
+        <item name="android:background">@drawable/btn_green_bg_selector</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height_40</item>
+    </style>
+
+    <!--取消按钮-->
+    <style name="btn_main_color_style.cancel" parent="btn_main_color_style">
+        <item name="android:background">@drawable/btn_common_cancel_bg_selector</item>
+    </style>
+</resources>

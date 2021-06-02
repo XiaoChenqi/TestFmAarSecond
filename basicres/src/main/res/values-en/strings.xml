@@ -1,0 +1,8 @@
+<resources>
+    <string name="common_app_name">basicres</string>
+
+    <string name="empty_network_error">Network error</string>
+    <string name="empty_no_data">No Data</string>
+    <string name="loading">Under load&#8230;</string>
+
+</resources>

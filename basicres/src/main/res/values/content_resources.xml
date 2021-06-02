@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--内容 (注意：如果不一样不要在这里修改，请在引入后内部覆盖修改)-->
+    <dimen name="content_text_size">@dimen/sp_13</dimen>
+    <color name="content_text_color">@color/grey_9</color>
+
+    <style name="content_text_style">
+        <item name="android:textSize">@dimen/content_text_size</item>
+        <item name="android:textColor">@color/content_text_color</item>
+    </style>
+</resources>

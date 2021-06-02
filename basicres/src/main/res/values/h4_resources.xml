@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--四级标题 (类似立即查看这种) (注意：如果不一样不要在这里修改，请在引入后内部覆盖修改)-->
+    <dimen name="h4_text_size">@dimen/sp_14</dimen>
+    <color name="h4_text_color">@color/grey_3</color>
+
+    <style name="h4_text_style">
+        <item name="android:textSize">@dimen/h4_text_size</item>
+        <item name="android:textColor">@color/h4_text_color</item>
+    </style>
+</resources>

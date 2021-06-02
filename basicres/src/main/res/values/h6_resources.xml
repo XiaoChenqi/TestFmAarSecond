@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--sp 11 color 666666-->
+    <dimen name="h6_text_size">@dimen/sp_11</dimen>
+    <color name="h6_text_color">@color/grey_6</color>
+
+    <style name="h6_text_style">
+        <item name="android:textSize">@dimen/h6_text_size</item>
+        <item name="android:textColor">@color/h6_text_color</item>
+    </style>
+</resources>
