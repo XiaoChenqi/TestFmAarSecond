@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主题色-->
+    <color name="colorPrimary">#1ab394</color>
+    <color name="colorPrimaryDark">#1ab394</color>
+    <color name="colorPrimarySelect">#18a689</color>
+    <color name="colorAccent">#1ab394</color>
+</resources>

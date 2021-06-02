@@ -1,0 +1,138 @@
+apply plugin: 'com.android.library'
+apply plugin:'maven'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.libMinSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName_lib
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation 'junit:junit:4.12'
+    api "com.android.support:recyclerview-v7:$supportVersion"
+    api "com.android.support:cardview-v7:$supportVersion"
+    api "com.android.support:appcompat-v7:$supportVersion"
+    api "com.android.support:design:$supportVersion"
+    api "com.android.support:support-vector-drawable:$supportVersion"
+    //fragmentation and swipeBack
+    api 'me.yokeyword:fragmentation:1.3.8'
+    api 'me.yokeyword:fragmentation-swipeback:1.3.8'
+    //wcdb
+    api 'com.tencent.wcdb:wcdb-android:1.0.6.2'
+    //图片选择
+    //    compile 'com.jph.takephoto:takephoto_library:4.0.3'
+    //LeakCanary
+//    compile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
+    //提高 Android UI 开发效率的 UI 库 http://qmuiteam.com/android
+    api('com.qmuiteam:qmui:1.1.10') {
+        exclude group: 'com.android.support'
+    }
+    api 'com.github.lzyzsd:circleprogress:1.2.1'
+    //组件化
+    api('com.luojilab.ddcomponent:componentlib:1.3.0') {
+        exclude group: 'com.android.support'
+    }
+    //字体图标
+    api 'com.joanzapata.iconify:android-iconify-fontawesome:2.2.2'
+    //下拉刷新
+    api 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-6'
+    api 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-6'
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
+    //兼容fragment的沉浸式
+    api 'com.gyf.barlibrary:barlibrary:2.3.0'
+    //二维码扫描
+    api 'com.github.xh2015.fmtool:scan:1.0.11'
+    //网络请求
+    api 'com.github.xh2015.fmtool:network:1.0.13'
+    //banner
+    api 'com.bigkoo:ConvenientBanner:2.1.1'
+    api 'com.youth.banner:banner:1.4.10'
+    //图片选择
+    api('com.github.xh2015.PictureSelector:picture_library:v3.1.4') {
+        exclude group: 'com.android.support'
+    }
+    //util
+    api 'com.blankj:utilcode:1.23.7'
+    //A circular ImageView for Android
+    api 'de.hdodenhof:circleimageview:2.2.0'
+    //item侧滑菜单
+    api 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
+    //图片加载库
+//    compile ('com.squareup.picasso:picasso:2.71828'){
+//        exclude group: 'com.android.support'
+//    }
+    api "com.android.support:exifinterface:25.3.1"
+    //时间选择
+    api 'com.contrarywind:Android-PickerView:4.1.9'
+    //65536
+    api 'com.android.support:multidex:1.0.1'
+    //星星等级
+    api 'com.iarcuschin:simpleratingbar:0.1.5'
+    //空布局
+    api 'com.github.czy1121:loadinglayout:1.0.1'
+    //rxandroid
+    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    //rxjava
+    api "io.reactivex.rxjava2:rxjava:2.2.2"
+    //图表
+    api 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    //流式布局
+    api 'com.hyman:flowlayout-lib:1.1.2'
+    //日历布局
+    api 'com.haibin:calendarview:3.6.8'
+    //页签
+    api 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    //圆角imageview
+    api 'com.makeramen:roundedimageview:2.3.0'
+    //录音
+    api ('com.github.zhaolewei:ZlwAudioRecorder:v1.07'){
+        exclude group: "com.android.support"
+    }
+    //录制视频
+    api 'com.github.xh2015.fmtool:camera2:1.0.16'
+    //AgentWeb webview加强
+    api 'com.just.agentweb:agentweb:4.1.3'
+    api ('com.shuyu:gsyVideoPlayer-java:6.0.3'){
+        exclude group: 'com.android.support'
+    }
+    api ('com.shuyu:gsyVideoPlayer-arm64:6.0.3'){
+        exclude group: 'com.android.support'
+    }
+}
+
+//uploadArchives {
+//    configuration = configurations.archives
+//    repositories {
+//        mavenDeployer {
+//            repository(url: 'http://192.168.1.146:8080/nexus/content/repositories/com.facility.wireless/') {
+//                authentication(userName: 'admin', password: 'admin123')
+//            }
+//            pom.project {
+//                version '1.0.6'
+//                artifactId 'basiclib'
+//                groupId 'com.facility.wireless'
+//                packaging 'aar'
+//                description 'init version 1.0.6'
+//            }
+//        }
+//    }
+//}
