@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_scan" translatable="false">{icon-scan}</string>
+    <string name="icon_camera" translatable="false">{icon-camera}</string>
+    <string name="icon_back" translatable="false">{icon-back}</string>
+    <string name="icon_more" translatable="false">{icon-more}</string>
+    <string name="icon_add" translatable="false">{icon-add}</string>
+    <string name="icon_clock" translatable="false">{icon-clock}</string>
+    <string name="icon_down" translatable="false">{icon-down}</string>
+    <string name="icon_arrow_up" translatable="false">{icon-arrow-up}</string>
+    <string name="icon_arrow_down" translatable="false">{icon-arrow-down}</string>
+    <string name="icon_call" translatable="false">{icon-call}</string>
+    <string name="icon_right" translatable="false">{icon-right}</string>
+    <string name="icon_check" translatable="false">{icon-check}</string>
+    <string name="icon_input" translatable="false">{icon-input}</string>
+    <string name="icon_warn" translatable="false">{icon-warn}</string>
+    <string name="icon_pic" translatable="false">{icon-pic}</string>
+    <string name="icon_share" translatable="false">{icon-share}</string>
+    <string name="icon_flashlight_on" translatable="false">{icon-flashlight-on}</string>
+    <string name="icon_flashlight_off" translatable="false">{icon-flashlight-off}</string>
+</resources>
