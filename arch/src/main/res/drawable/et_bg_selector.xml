@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--被选中时是1dp的底部边线-->
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <color android:color="@color/colorAccent"/>
+            </item>
+            <item android:bottom="@dimen/dp_1">
+                <color android:color="@color/white"/>
+            </item>
+        </layer-list>
+    </item>
+
+    <!--未被选中的是0.5dp的底部边线-->
+    <item>
+        <layer-list>
+            <item>
+                <color android:color="@color/grey_c"/>
+            </item>
+            <item android:bottom="@dimen/dp_0.5">
+                <color android:color="@color/white"/>
+            </item>
+        </layer-list>
+    </item>
+</selector>

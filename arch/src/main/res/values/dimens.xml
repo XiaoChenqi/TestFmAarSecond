@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_global_zero_margin">0dp</dimen>
+    <!--标题返回按钮左右边距-->
+    <dimen name="title_back_left_margin">12dp</dimen>
+    <dimen name="title_back_right_margin">8dp</dimen>
+    <!--标题右侧菜单右边距-->
+    <dimen name="title_menu_right_margin">15dp</dimen>
+    <dimen name="toolbar_right_margin">5dp</dimen>
+    <dimen name="title_menu_padding">10dp</dimen>
+    <!--menu icon 宽度最小值-->
+    <dimen name="toolbar_menu_icon_min_width">34dp</dimen>
+
+    <dimen name="qmui_topbar_height">48dp</dimen>
+
+    <!--自定义键盘-->
+    <dimen name="key_height">50dp</dimen>
+    <dimen name="key_num_height">50dp</dimen>
+    <dimen name="key_horizontal_gap">10dp</dimen>
+    <dimen name="key_vertical_gap">6dp</dimen>
+    <dimen name="keyboard_tip_height">50dp</dimen>
+</resources>

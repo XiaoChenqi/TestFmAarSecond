@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/dp_77"
+                android:layout_height="@dimen/dp_77"
+                android:layout_centerInParent="true">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="@dimen/dp_67"
+        android:layout_height="@dimen/dp_67"
+        android:layout_marginTop="@dimen/dp_13"
+        android:scaleType="centerCrop"
+        android:src="@color/grey_f6"/>
+
+    <ImageView
+        android:id="@+id/iv_photo2"
+        android:layout_width="@dimen/dp_67"
+        android:layout_height="@dimen/dp_67"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/dp_13"
+        android:src="@color/grey_f6"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_photo3"
+        android:layout_width="@dimen/dp_67"
+        android:layout_height="@dimen/dp_67"
+        android:layout_marginTop="@dimen/dp_13"
+        android:scaleType="centerCrop"
+        android:src="@color/grey_f6"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        style="@style/h3_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_13"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/ll_del"
+        android:layout_width="@dimen/dp_35"
+        android:layout_height="@dimen/dp_35"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_6">
+
+        <ImageView
+            android:id="@+id/iv_del"
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:scaleType="fitXY"
+            android:src="@drawable/delete_photo"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_duration"
+        android:layout_width="@dimen/dp_67"
+        android:layout_height="@dimen/dp_30"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:background="@drawable/buybuybuy"
+        android:drawableLeft="@drawable/video_icon"
+        android:drawablePadding="@dimen/dp_5"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_8"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_11"
+        android:visibility="gone"/>
+</RelativeLayout>

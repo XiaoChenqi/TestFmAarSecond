@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mod_ip_title_tv"
+        style="@style/h3_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@drawable/fm_tag_fill_grey_f2f4f3_top_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_13"
+        android:text="@string/arch_soft_update_title"/>
+
+    <LinearLayout
+        android:id="@+id/ll_downloading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fm_tag_fill_white_bottom_bg"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.facilityone.wireless.a.arch.ec.ui.UpdateProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_26"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:layout_marginRight="@dimen/dp_13"
+            android:layout_marginTop="@dimen/dp_26"
+            android:progressDrawable="@drawable/progressbar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fm_tag_fill_white_bottom_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/update_content_et"
+            style="@style/h3_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_26"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:layout_marginRight="@dimen/dp_13"
+            android:layout_marginTop="@dimen/dp_26"
+            android:background="@color/white"
+            android:gravity="left|top"
+            android:maxLines="1"
+            android:minLines="1"
+            android:padding="@dimen/dp_6"
+            android:text="@string/arch_soft_update_info"
+            android:textColorHint="@color/grey_c"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/update_log_tv"
+            style="@style/h3_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_26"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:layout_marginRight="@dimen/dp_13"
+            android:layout_marginTop="@dimen/dp_26"/>
+
+        <Button
+            android:id="@+id/update_sure_btn"
+            style="@style/btn_main_color_style"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:layout_marginRight="@dimen/dp_13"
+            android:background="@drawable/btn_blue_selector_bg"
+            android:text="@string/arch_soft_update_updatebtn"/>
+    </LinearLayout>
+</LinearLayout>

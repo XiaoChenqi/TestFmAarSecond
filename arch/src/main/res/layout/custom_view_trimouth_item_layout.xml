@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/trimouth_item_content_iv"
+        android:layout_width="match_parent"
+        android:textColor="@color/grey_6"
+        android:minLines="2"
+        android:textSize="@dimen/dp_13"
+        android:layout_height="wrap_content" />
+</LinearLayout>

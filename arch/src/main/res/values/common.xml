@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--有提示信息的菜单（请选择设备这种）-->
+    <style name="clickMenuSelectStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_48</item>
+        <item name="android:editable">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:paddingLeft">@dimen/dp_17</item>
+        <item name="android:textColorHint">@color/grey_c</item>
+        <item name="android:textSize">@dimen/dp_13</item>
+        <item name="android:textColor">@color/grey_6</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--可点击-->
+    <style name="clickMenuSelectStyleBg" parent="clickMenuSelectStyle">
+        <item name="android:background">@drawable/content_click_menu_bg</item>
+    </style>
+    <!--不可点击可输入-->
+    <style name="editorBgStyle" parent="clickMenuSelectStyle">
+        <item name="android:editable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:background">@drawable/fm_underline_bg</item>
+    </style>
+</resources>

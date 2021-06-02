@@ -1,0 +1,40 @@
+<RelativeLayout
+    android:id="@+id/work_list_item_rl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_120"
+    android:background="@drawable/grid_view_item_bg"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_function_icon"
+        android:layout_width="@dimen/dp_52"
+        android:layout_height="@dimen/dp_52"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/iv_function_undo_num"
+        android:layout_width="@dimen/dp_19"
+        android:layout_height="@dimen/dp_19"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/dp_0_12"
+        android:layout_toRightOf="@+id/iv_function_icon"
+        android:background="@drawable/sign_count_red_bg"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_9"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tv_function_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_function_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_8"
+        android:maxLines="1"
+        android:textColor="@color/home_menu_title"
+        android:textSize="@dimen/sp_13"/>
+</RelativeLayout>

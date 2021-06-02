@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/service_demand_detail_record_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_36"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/service_demand_detail_record_top_line"
+            android:layout_width="@dimen/dp_0.4"
+            android:layout_height="@dimen/dp_12"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/grey_d6"/>
+
+        <ImageView
+            android:id="@+id/service_demand_detail_priority_view"
+            android:layout_width="@dimen/dp_26"
+            android:layout_height="@dimen/dp_26"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dp_3"
+            android:layout_marginTop="@dimen/dp_3"
+            android:background="@drawable/service_control_label_create_demand"
+            android:scaleType="center"/>
+
+        <TextView
+            android:id="@+id/service_demand_detail_record_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dp_3"
+            android:gravity="center"
+            android:textColor="@color/grey_87"
+            android:textSize="@dimen/sp_10"/>
+
+        <View
+            android:id="@+id/service_demand_detail_record_bottom_line"
+            android:layout_width="@dimen/dp_0.4"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@color/grey_d6"/>
+    </LinearLayout>
+
+    <com.facilityone.wireless.a.arch.widget.TriMouthView
+        android:id="@+id/service_demand_detail_record_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_28"
+        android:layout_marginLeft="@dimen/dp_18"
+        android:layout_marginRight="@dimen/dp_38"
+        android:layout_marginTop="@dimen/dp_11"
+        android:background="@color/white"
+        android:gravity="center"
+        android:minHeight="@dimen/dp_28"
+        app:triitem_ctPaddingBottom="@dimen/dp_12"
+        app:triitem_ctPaddingLeft="@dimen/dp_10"
+        app:triitem_ctPaddingRight="@dimen/dp_20"
+        app:triitem_ctPaddingTop="@dimen/dp_6"/>
+</LinearLayout>

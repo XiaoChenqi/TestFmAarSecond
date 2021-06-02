@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@color/transparent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <com.qmuiteam.qmui.widget.QMUILoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:color="@color/white"
+        app:qmui_loading_view_size="@dimen/dp_32"/>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/qmui_config_color_white"
+        android:textSize="@dimen/sp_14"/>
+
+</LinearLayout>

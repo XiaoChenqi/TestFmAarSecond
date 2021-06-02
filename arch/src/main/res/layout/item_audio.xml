@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dp_6"
+                android:paddingLeft="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16"
+                android:paddingTop="@dimen/dp_7">
+
+
+    <LinearLayout
+        android:id="@+id/ll_play"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_7"
+        android:background="@drawable/audio_shape"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_13"
+        android:paddingRight="@dimen/dp_13">
+
+        <ImageView
+            android:id="@+id/iv_audio"
+            android:layout_width="@dimen/dp_16"
+            android:layout_height="@dimen/dp_16"
+            android:src="@drawable/audio_play_03"/>
+
+        <TextView
+            android:id="@+id/tv_duration"
+            style="@style/h5_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_del"
+        android:layout_width="@dimen/dp_25"
+        android:layout_height="@dimen/dp_25"
+        android:layout_marginLeft="@dimen/dp_0_20"
+        android:layout_toRightOf="@id/ll_play"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:scaleType="fitXY"
+            android:src="@drawable/delete_photo"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--导航栏标题的size-->
+    <dimen name="topbar_title_size">19sp</dimen>
+    <dimen name="topbar_subtitle_size">15sp</dimen>
+    <dimen name="topbar_back_size">16sp</dimen>
+
+    <!--导航栏颜色相关-->
+    <color name="topbar_title_color">#ffffff</color>
+    <color name="topbar_menu_color">#ffffff</color>
+    <color name="topbar_menu_press_color">#55ffffff</color>
+</resources>

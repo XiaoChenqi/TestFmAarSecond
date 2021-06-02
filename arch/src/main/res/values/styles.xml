@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme.NoActionBar" parent="FMAppTheme">
+        <!--取消标题-->
+        <item name="windowNoTitle">true</item>
+        <!--取消actionbar-->
+        <item name="windowActionBar">false</item>
+        <!--背景透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--toolbar高度-->
+        <item name="qmui_topbar_height">48dp</item>
+        <!--加载布局-->
+        <item name="styleLoadingLayout">@style/LoadingLayoutStyle</item>
+    </style>
+
+    <style name="FMAppTheme" parent="QMUI.Compat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--是否有遮盖解决开启的时候短暂黑白屏问题-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/app_bg</item>
+        <item name="qmui_dialog_radius">@dimen/dp_6</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.NoTranslucent" parent="AppTheme.NoActionBar">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="AppTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--有返回按钮的topbar-->
+    <style name="commonTopbarStyle" parent="@style/QMUI.TopBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/qmui_topbar_height</item>
+        <item name="qmui_topbar_bg_color">@color/colorPrimary</item>
+        <item name="qmui_topbar_title_color">@color/topbar_title_color</item>
+        <item name="qmui_topbar_title_text_size">@dimen/topbar_title_size</item>
+        <item name="qmui_topbar_need_separator">false</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+        <item name="qmui_topbar_left_back_drawable_id">@drawable/fm_icon_pre_arrow</item>
+        <item name="qmui_topbar_title_container_padding_horizontal">@dimen/dp_6</item>
+        <item name="qmui_topbar_text_btn_padding_horizontal">@dimen/dp_4</item>
+        <item name="qmui_topbar_text_btn_text_size">@dimen/sp_14</item>
+        <item name="qmui_topbar_text_btn_color_state_list">@color/fm_topbar_text_color_selector
+        </item>
+        <item name="qmui_topbar_subtitle_color">@color/topbar_title_color</item>
+        <item name="qmui_topbar_subtitle_text_size">@dimen/topbar_subtitle_size</item>
+    </style>
+
+    <!--登录topbar（标题居右时）-->
+    <style name="commonTopbarStyle.logon" parent="commonTopbarStyle">
+        <item name="qmui_topbar_title_gravity">left_center</item>
+        <item name="android:paddingLeft">@dimen/dp_29</item>
+    </style>
+
+    <!--消息topbar-->
+    <style name="commonTopbarStyle.message" parent="commonTopbarStyle">
+        <item name="qmui_topbar_title_gravity">left_center</item>
+        <item name="android:paddingLeft">@dimen/dp_16</item>
+    </style>
+
+    <!--我的页面item-->
+    <style name="listViewItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/list_item_bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/dp_15</item>
+        <item name="android:paddingRight">@dimen/dp_15</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="LoadingLayoutStyle" parent="LoadingLayout.Style">
+        <!-- 空布局资源id -->
+        <item name="llEmptyResId">@layout/empty_view</item>
+        <!-- 加载中布局资源id -->
+        <item name="llLoadingResId">@layout/loading_view</item>
+        <!-- 错误布局资源id -->
+        <item name="llErrorResId">@layout/error_view</item>
+    </style>
+</resources>

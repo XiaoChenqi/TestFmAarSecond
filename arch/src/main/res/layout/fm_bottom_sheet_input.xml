@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/h5_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_bg"
+        android:gravity="center"
+        android:padding="@dimen/dp_10"/>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="@dimen/sp_13"
+        android:textColor="@color/grey_c"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16"
+        android:paddingTop="@dimen/dp_16"
+        android:visibility="gone"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_16">
+
+        <EditText
+            android:id="@+id/et_input"
+            style="@style/h5_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_138"
+            android:background="@drawable/input_bg"
+            android:gravity="start"
+            android:paddingBottom="@dimen/dp_23"
+            android:paddingLeft="@dimen/dp_4"
+            android:paddingRight="@dimen/dp_4"
+            android:paddingTop="@dimen/dp_4"
+            android:textColorHint="@color/grey_c"/>
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_4"
+            android:textColor="@color/grey_c"
+            android:textSize="@dimen/sp_11"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/btn_main_color_style"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/ll_two_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_left"
+            style="@style/btn_main_color_style.cancel"
+            android:layout_width="0dp"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_right"
+            style="@style/btn_main_color_style"
+            android:layout_width="0dp"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

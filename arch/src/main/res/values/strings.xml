@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--网络连接失败，请连接网络!-->
+    <string name="arch_network_error">网络连接失败，请连接网络!</string>
+    <!--提示-->
+    <string name="arch_tips">提示</string>
+    <!--确定-->
+    <string name="arch_confirm">确定</string>
+    <!--是否确定删除该视频-->
+    <string name="arch_delete_audio_tip">是否确定删除该音频</string>
+    <!--共%d张-->
+    <string name="arch_total">共%d张</string>
+    <!--登录失败-->
+    <string name="arch_login_error">登录失败</string>
+    <!--登录成功-->
+    <string name="arch_login_success">登录成功</string>
+    <!--用户名或密码错误-->
+    <string name="arch_login_username_passwd_error">用户名或密码错误</string>
+    <!--未知错误，请联系管理员-->
+    <string name="arch_login_error_x">未知错误，请联系管理员</string>
+    <!--下载附件失败-->
+    <string name="arch_attachment_error">下载附件失败!</string>
+    <!--数据选择-->
+    <string name="arch_data_select">数据选择</string>
+    <!--位置-->
+    <string name="arch_location">选择位置</string>
+    <!--设备-->
+    <string name="arch_device">选择设备</string>
+    <!--部门-->
+    <string name="arch_org">选择部门</string>
+    <!--服务类型-->
+    <string name="arch_service_stype">选择服务类型</string>
+    <!--知识库分类-->
+    <string name="arch_knowledge_classify">选择知识库分类</string>
+    <!--需求类型-->
+    <string name="arch_demand_type">选择需求类型</string>
+    <!--系统分类-->
+    <string name="arch_system_type">选择系统分类</string>
+    <!--优先级-->
+    <string name="arch_priority">选择优先级</string>
+    <!--拜访对象-->
+    <string name="arch_visit_pay">拜访对象</string>
+    <!--工单类型-->
+    <string name="arch_order_type">选择工单类型</string>
+    <!--自检-->
+    <string name="arch_order_type_self">自检</string>
+    <!--纠正性维护-->
+    <string name="arch_order_type_correct">纠正性维护</string>
+    <!--常见异常选择-->
+    <string name="arch_exception_select">选择常见异常选择</string>
+    <!--工作组-->
+    <string name="arch_work_team">工作组</string>
+    <!--客户签字-->
+    <string name="arch_sing_customer_tip">客户签字</string>
+    <!--主管签字-->
+    <string name="arch_sing_manager_tip">主管签字</string>
+    <!--验收签字-->
+    <string name="arch_sing_tip">签字</string>
+    <!--保存-->
+    <string name="arch_save">保存</string>
+    <!--签字不能为空-->
+    <string name="arch_sing_no_empty">签字不能为空</string>
+    <!--操作失败-->
+    <string name="arch_operate_fail">操作失败</string>
+    <!--操作成功-->
+    <string name="arch_operate_success">操作成功</string>
+    <!--APP 更新-->
+    <string name="arch_app_update">APP 更新</string>
+    <!--正在更新-->
+    <string name="arch_soft_updating">正在更新</string>
+    <!--附件-->
+    <string name="arch_attachement">附件</string>
+    <!--加载失败-->
+    <string name="arch_load_error">加载失败</string>
+    <!--拒绝权限会导致某些功能异常-->
+    <string name="arch_permission_deny_tip">拒绝权限会导致某些功能异常</string>
+    <!--不支持的文件-->
+    <string name="arch_file_error">不支持的文件</string>
+    <!--取消-->
+    <string name="arch_cancel">取消</string>
+    <!--最多输入%s字-->
+    <string name="arch_char_no_more">不超过%s字</string>
+    <!--还能输入%s字-->
+    <string name="arch_char_no_more_remaining">还能输入%s字符</string>
+    <!--请输入内容-->
+    <string name="arch_work_content_hint">请输入内容</string>
+    <!--警告-->
+    <string name="arch_warning">警告</string>
+    <!--软件更新-->
+    <string name="arch_soft_update_title">软件更新</string>
+    <!--检测到新版本，立即更新吗-->
+    <string name="arch_soft_update_info">检测到新版本，立即更新吗</string>
+    <!--更新-->
+    <string name="arch_soft_update_updatebtn">更新</string>
+    <!--点击录音-->
+    <string name="arch_recording_audio_title">点击录音</string>
+    <!--关 闭-->
+    <string name="arch_close">关 闭</string>
+    <!--请输入需求描述...-->
+    <string name="arch_describe_hint">请输入需求描述...</string>
+    <!--请输入过滤条件-->
+    <string name="arch_enter_filter_conditions_hint">请输入过滤条件</string>
+    <!--正在加载中-->
+    <string name="arch_loading">正在加载中</string>
+    <!--上一月-->
+    <string name="arch_pre_month">上一月</string>
+    <!--下一月-->
+    <string name="arch_next_month">下一月</string>
+    <!--选择日期-->
+    <string name="arch_select_date">选择日期</string>
+    <!--请求数据不正确-->
+    <string name="fm_net_error_order_data_error">请求数据不正确</string>
+    <!--操作失败，因为工单状态已变更，请刷新后再试-->
+    <string name="fm_net_error_order_status_changed">操作失败，因为工单状态已变更，请刷新后再试</string>
+    <!--物资批次有效数量不足，请刷新后重试-->
+    <string name="fm_net_error_inventory_material_shortage">物资批次有效数量不足，请刷新后重试</string>
+    <string name="arch_logon_session_failed">登录信息失效，请重新登录</string>
+
+
+    <string name="login_error_password_upper_limit">密码错误次数达到上限</string>
+    <string name="code_error_system">系统错误</string>
+    <string name="code_error_item_not_exist">数据不存在或已被删除</string>
+    <string name="code_error_verification">验证码错误</string>
+    <string name="code_error_generate_verification">生成验证码错误</string>
+    <string name="code_login_success">登陆成功</string>
+    <string name="code_logout_success">退出成功</string>
+    <string name="code_error_password_simple">密码不符合要求</string>
+    <string name="code_error_password_error">原密码不正确</string>
+    <string name="code_error_password_not_login">未登录，需要登录</string>
+    <string name="code_error_password_user_not_exist">对应的用户不存在</string>
+    <string name="code_error_password_change_success">密码修改成功</string>
+    <string name="code_error_password_first_login">欢迎首次登录，请重置初始密码</string>
+    <string name="login_error_password_expired">您的账号密码已过期,请重置密码！</string>
+    <string name="code_error_password_repeat">近期使用过该密码，请重新设置</string>
+    <string name="password_expired_time_tip">您的账号密码密码将在%1$d天后过期，为了不影响正常使用，请尽快重置密码！</string>
+    <string name="dialog_cancel_next_tip">下次再说</string>
+    <string name="code_error_password_ip_locked">您的IP已被锁定，请联系管理员！</string>
+    <string name="logon_other_tip">你的账号在其它设备登录，现在准备退出。</string>
+    <string name="login_error_param">登录参数错误</string>
+    <string name="login_change_password">去重置</string>
+    <string name="logon_be_again">退出</string>
+    <string name="work_filter_desc">工单描述</string>
+
+    <!--自定义键盘-->
+    <string name="description" translatable="false">SafeKeyboard</string>
+    <string name="safe_keyboard" translatable="false">智能加密安全软键盘</string>
+    <string name="keyboard_key1" translatable="false">"&#64;"</string>
+    <string name="keyboard_key2" translatable="false">"&#38;"</string>
+    <string name="keyboard_key3" translatable="false">\"</string>
+    <string name="keyboard_key4" translatable="false">"&#60;"</string>
+    <string name="keyboard_key5" translatable="false">"&#62;"</string>
+    <string name="keyboard_system" translatable="false">系统键盘</string>
+    <string name="keyboard_demo_new" translatable="false">"安全软键盘"</string>
+    <string name="keyboard_demo_new2" translatable="false">安全软键盘(数字)</string>
+    <string name="keyboard_demo_new3" translatable="false">安全软键盘(IdCard)</string>
+    <string name="mLabelTextSize" translatable="false">mLabelTextSize</string>
+</resources>

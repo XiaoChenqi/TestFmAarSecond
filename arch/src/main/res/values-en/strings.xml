@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--网络连接失败，请连接网络!-->
+    <string name="arch_network_error">Network connection failed. Please connect to the network!</string>
+    <!--提示-->
+    <string name="arch_tips">Tips</string>
+    <!--确定-->
+    <string name="arch_confirm">Confirm</string>
+    <!--是否确定删除该视频-->
+    <string name="arch_delete_audio_tip">Whether delete this audio or not</string>
+    <!--共%d张-->
+    <string name="arch_total">Total %d</string>
+    <!--登录失败-->
+    <string name="arch_login_error">Login failed</string>
+    <!--登录成功-->
+    <string name="arch_login_success">Login successfully</string>
+    <!--用户名或密码错误-->
+    <string name="arch_login_username_passwd_error">User name or password error</string>
+    <!--未知错误，请联系管理员-->
+    <string name="arch_login_error_x">Unknown error, please contact administrator</string>
+    <!--下载附件失败-->
+    <string name="arch_attachment_error">Download attachment failed!</string>
+    <!--数据选择-->
+    <string name="arch_data_select">Data select</string>
+    <!--位置-->
+    <string name="arch_location">Select Location</string>
+    <!--设备-->
+    <string name="arch_device">Select Equipment</string>
+    <!--部门-->
+    <string name="arch_org">Select Department</string>
+    <!--服务类型-->
+    <string name="arch_service_stype">Select Service Type</string>
+    <!--知识库分类-->
+    <string name="arch_knowledge_classify">Select Classify Of Knowledge</string>
+    <!--需求类型-->
+    <string name="arch_demand_type">Select Requirement Type</string>
+    <!--系统分类-->
+    <string name="arch_system_type">SelectClassification</string>
+    <!--优先级-->
+    <string name="arch_priority">Select Priority</string>
+    <!--拜访对象-->
+    <string name="arch_visit_pay">Contact Person</string>
+    <!--工单类型-->
+    <string name="arch_order_type">Select Order Type</string>
+    <!--自检-->
+    <string name="arch_order_type_self">self-inspection</string>
+    <!--纠正性维护-->
+    <string name="arch_order_type_correct">Corrective Maintenance</string>
+    <!--常见异常选择-->
+    <string name="arch_exception_select">Select Commend Exception</string>
+    <!--工作组-->
+    <string name="arch_work_team">Team</string>
+    <!--客户签字-->
+    <string name="arch_sing_customer_tip">Customer Signature</string>
+    <!--主管签字-->
+    <string name="arch_sing_manager_tip">Supervisor Signature</string>
+    <!--验收签字-->
+    <string name="arch_sing_tip">Signature</string>
+    <!--保存-->
+    <string name="arch_save">Save</string>
+    <!--签字不能为空-->
+    <string name="arch_sing_no_empty">Signature cannot be empty</string>
+    <!--操作失败-->
+    <string name="arch_operate_fail">Operate failed</string>
+    <!--操作成功-->
+    <string name="arch_operate_success">Operate successfully</string>
+    <!--APP 更新-->
+    <string name="arch_app_update">APP Update</string>
+    <!--正在更新-->
+    <string name="arch_soft_updating">Updating</string>
+    <!--附件-->
+    <string name="arch_attachement">Attachment</string>
+    <!--加载失败-->
+    <string name="arch_load_error">Loading failed</string>
+    <!--拒绝权限会导致某些功能异常-->
+    <string name="arch_permission_deny_tip">Denying permissions results in some functional exceptions</string>
+    <!--不支持的文件-->
+    <string name="arch_file_error">Unsupported files</string>
+    <!--取消-->
+    <string name="arch_cancel">Cancel</string>
+    <!--最多输入%s字-->
+    <string name="arch_char_no_more">No more than %s words</string>
+    <!--还能输入%s字-->
+    <string name="arch_char_no_more_remaining">No more than %s words</string>
+    <!--请输入内容-->
+    <string name="arch_work_content_hint">Enter Description</string>
+    <!--警告-->
+    <string name="arch_warning">warning</string>
+    <!--软件更新-->
+    <string name="arch_soft_update_title">Update New Version</string>
+    <!--检测到新版本，立即更新吗-->
+    <string name="arch_soft_update_info">New Version released,update now</string>
+    <!--更新-->
+    <string name="arch_soft_update_updatebtn">Update</string>
+    <!--点击录音-->
+    <string name="arch_recording_audio_title">Start</string>
+    <!--关 闭-->
+    <string name="arch_close">Close</string>
+    <!--请输入需求描述...-->
+    <string name="arch_describe_hint">Please enter description...</string>
+    <!--请输入过滤条件-->
+    <string name="arch_enter_filter_conditions_hint">Please enter the filtering criteria</string>
+    <!--正在加载中-->
+    <string name="arch_loading">Under load</string>
+    <!--上一月-->
+    <string name="arch_pre_month">Last Month</string>
+    <!--下一月-->
+    <string name="arch_next_month">Next Month</string>
+    <!--选择日期-->
+    <string name="arch_select_date">Select Date</string>
+    <!--请求数据不正确-->
+    <string name="fm_net_error_order_data_error">The data requested is error.</string>
+    <!--操作失败，因为工单状态已变更，请刷新后再试-->
+    <string name="fm_net_error_order_status_changed">The operation failed as the status of order has been changed, please refresh and try again.</string>
+    <!--物资批次有效数量不足，请刷新后重试-->
+    <string name="fm_net_error_inventory_material_shortage">The quantity of material is insufficient, please refresh and try again.</string>
+    <!--登录信息失效，请重新登录-->
+    <string name="arch_logon_session_failed">Login information is invalid, please login again</string>
+
+    <string name="login_error_password_upper_limit">The number of password errors has reached the upper limit</string>
+    <string name="code_error_generate_verification">Generate verification code error</string>
+    <string name="code_error_system">System error</string>
+    <string name="code_error_item_not_exist">Data does not exist or has been deleted</string>
+    <string name="code_error_verification">Verification code error</string>
+    <string name="code_login_success">Login successfully</string>
+    <string name="code_logout_success">Logout successfully</string>
+    <string name="code_error_password_simple">The password does not meet the requirements</string>
+    <string name="code_error_password_error">The original password is incorrect</string>
+    <string name="code_error_password_not_login">Not logged in, need to login</string>
+    <string name="code_error_password_user_not_exist">The corresponding user does not exist</string>
+    <string name="code_error_password_change_success">Password reset complete</string>
+    <string name="code_error_password_first_login">Welcome to login for the first time. Please reset your initial password.</string>
+    <string name="login_error_password_expired">Your account password has expired, please reset your password!</string>
+    <string name="code_error_password_repeat">Password cannot be reused. Please reset it.</string>
+    <string name="password_expired_time_tip">Your account password will expire after %1$d days. In order not to affect normal use, please reset your password as soon as possible!</string>
+    <string name="dialog_cancel_next_tip">Later</string>
+    <string name="code_error_password_ip_locked">Your IP has been locked, please contact the administrator!</string>
+    <string name="logon_other_tip">Your account is logged in on another device. Now prepare to log out.</string>
+    <string name="login_error_param">Login parameter error</string>
+    <string name="login_change_password">Reset</string>
+    <string name="logon_be_again">Out</string>
+    <string name="work_filter_desc">Order Desc</string>
+
+    <!--自定义键盘-->
+    <string name="description" translatable="false">SafeKeyboard</string>
+    <string name="safe_keyboard" translatable="false">智能加密安全软键盘</string>
+    <string name="keyboard_key1" translatable="false">"&#64;"</string>
+    <string name="keyboard_key2" translatable="false">"&#38;"</string>
+    <string name="keyboard_key3" translatable="false">\"</string>
+    <string name="keyboard_key4" translatable="false">"&#60;"</string>
+    <string name="keyboard_key5" translatable="false">"&#62;"</string>
+    <string name="keyboard_system" translatable="false">系统键盘</string>
+    <string name="keyboard_demo_new" translatable="false">"安全软键盘"</string>
+    <string name="keyboard_demo_new2" translatable="false">安全软键盘(数字)</string>
+    <string name="keyboard_demo_new3" translatable="false">安全软键盘(IdCard)</string>
+    <string name="mLabelTextSize" translatable="false">mLabelTextSize</string>
+</resources>

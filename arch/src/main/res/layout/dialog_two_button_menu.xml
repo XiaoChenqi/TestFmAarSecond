@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingBottom="@dimen/dp_10"
+              android:paddingLeft="@dimen/dp_13"
+              android:paddingRight="@dimen/dp_13"
+              android:paddingTop="@dimen/dp_26">
+
+    <Button
+        android:id="@+id/btn_left"
+        style="@style/btn_main_color_style.cancel"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_40"
+        android:layout_weight="1"
+        android:text="@string/arch_cancel"/>
+
+    <View
+        android:layout_width="@dimen/dp_13"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/btn_right"
+        style="@style/btn_main_color_style"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_40"
+        android:layout_weight="1"
+        android:text="@string/arch_confirm"
+        />
+</LinearLayout>

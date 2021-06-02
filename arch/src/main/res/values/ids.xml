@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="topbar_menu_add_id"/>
+    <item type="id" name="topbar_menu_scan_id"/>
+    <item type="id" name="topbar_menu_general_id"/>
+    <item type="id" name="topbar_left_back_id"/>
+    <item type="id" name="topbar_right_more_id"/>
+    <item type="id" name="signature_id"/>
+    <item type="id" name="signature_save"/>
+    <item type="id" name="select_data_back_id"/>
+</resources>

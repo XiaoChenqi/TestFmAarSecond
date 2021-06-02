@@ -1,0 +1,74 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.appMinSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName_lib
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "SERVER_UPDATE_URL", "\"http://fmone.cn:3000\""
+        buildConfigField "String", "TEST_APP_SERVER", "\"https://wechat.fmone.cn\""
+
+        //TODO
+        buildConfigField "String", "APP_KEY", "\"00000000\""
+        buildConfigField "String", "APP_SECRET", "\"11111111\""
+        //TODO xcq
+        //buildConfigField "String", "SERVER_URL", "\"https://wechat.fmone.cn\""
+        buildConfigField "String", "SERVER_URL", "\"http://192.168.1.66:8080\""
+        buildConfigField "String", "CUSTOMER_CODE", "\"dWGitJATnhziWBt7\""
+        buildConfigField "String", "UPDATE_CHANNEL", "\"kDsx2HrR75QZ7BfZ\""
+        buildConfigField "String", "UPDATE_APP_KEY", "\"a3KwjjbdEYDAQjcGCc7D6ZHNzYrxsKTa\""
+        buildConfigField "String", "UMENG_CHANNEL_KEY", "\"${UMENG_CHANNEL_KEY}\""
+        buildConfigField "String", "UMENG_CHANNEL_VALUE", "\"${UMENG_CHANNEL_VALUE}\""
+        buildConfigField "String", "QQZONE_KEY", "\"${QQZONE_KEY}\""
+        buildConfigField "String", "QQZONE_SECRET", "\"${QQZONE_SECRET}\""
+        buildConfigField "String", "DING_DING_SECRET", "\"${DING_DING_SECRET}\""
+        buildConfigField "String", "WEI_XIN_KEY", "\"${WEI_XIN_KEY}\""
+        buildConfigField "String", "WEI_XIN_SECRET", "\"${WEI_XIN_SECRET}\""
+
+        buildConfigField "String", "MI_APPID", "\"${MI_APPID}\""
+        buildConfigField "String", "MI_APPKEY", "\"${MI_APPKEY}\""
+
+        buildConfigField "String", "ALIYUN_PUSH_APP_KEY", "\"${ALIYUN_PUSH_APP_KEY}\""
+        buildConfigField "String", "ALIYUN_PUSH_APP_SECRET", "\"${ALIYUN_PUSH_APP_SECRET}\""
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':basiclib')
+    api project(':basicres')
+//    compile 'com.facility.wireless:basiclib:1.0.6'
+//    compile 'com.facility.wireless:basicres:1.0.0'
+}
+
+uploadArchives {
+    configuration = configurations.archives
+    repositories {
+        mavenDeployer {
+            repository(url: 'http://192.168.1.146:8080/nexus/content/repositories/com.facility.wireless/') {
+                authentication(userName: 'admin', password: 'admin123')
+            }
+            pom.project {
+                version '1.0.6'
+                artifactId 'arch'
+                groupId 'com.facility.wireless'
+                packaging 'aar'
+                description 'init version 1.0.6'
+            }
+        }
+    }
+}

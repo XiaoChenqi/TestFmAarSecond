@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/dp_25">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_70">
+
+        <com.facilityone.wireless.a.arch.widget.LineWaveVoiceView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:voiceLineColor="#ff9c00"
+            app:voiceLineWidth="@dimen/dp_3"
+            app:voiceTextColor="@color/grey_6"
+            app:voiceTextSize="@dimen/sp_15"/>
+
+        <TextView
+            android:id="@+id/tv_tip"
+            style="@style/h3_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/arch_recording_audio_title"/>
+
+    </FrameLayout>
+
+
+    <ImageButton
+        android:id="@+id/iv_start"
+        android:layout_width="@dimen/dp_73"
+        android:layout_height="@dimen/dp_73"
+        android:background="@drawable/record_audio_start_selector"/>
+
+    <com.facilityone.wireless.a.arch.widget.CircleProgressView
+        android:id="@+id/cpv_play"
+        android:layout_width="@dimen/dp_73"
+        android:layout_height="@dimen/dp_73"
+        android:background="@drawable/icon_record_audio_play"
+        android:visibility="gone"
+        app:proOrient="true"
+        app:roundColor="@color/transparent"
+        app:roundProgressColor="@color/colorPrimary"
+        app:roundWidth="@dimen/dp_3"
+        app:textIsDisplayable="false"/>
+
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0.4"
+        android:layout_marginTop="@dimen/dp_26"
+        android:background="@color/grey_c"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/ll_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/arch_cancel"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp_15"/>
+
+        <View
+            android:layout_width="@dimen/dp_0.4"
+            android:layout_height="match_parent"
+            android:background="@color/grey_c"/>
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/arch_confirm"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp_15"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SearchBox -->
+    <declare-styleable name="SearchBox">
+        <attr name="android:hint"/>
+        <attr name="sb_clrBackGround" format="integer"/>
+    </declare-styleable>
+
+    <!--************** EditNumberView **************-->
+    <attr name="EditNumberViewStyle" format="reference"/>
+
+    <declare-styleable name="EditNumberView">
+        <attr name="fm_edit_number_desc" format="string"/>
+        <attr name="fm_edit_number_count" format="integer"/>
+    </declare-styleable>
+
+    <!--************** CommonListItemView **************-->
+    <attr name="CommonListItemViewStyle" format="reference"/>
+
+    <declare-styleable name="CommonListItemView">
+        <attr name="fm_list_item_title" format="string"/>
+        <attr name="fm_list_item_image" format="reference"/>
+        <attr name="fm_list_item_tip" format="string"/>
+        <attr name="fm_list_item_show_tip" format="boolean"/>
+        <attr name="fm_list_item_show_line" format="boolean"/>
+        <attr name="fm_list_item_show_red_icon" format="boolean"/>
+        <attr name="fm_list_item_show_right_icon" format="boolean"/>
+        <attr name="fm_list_item_tip_color" format="color"/>
+    </declare-styleable>
+
+    <!--************** CommonListItemView **************-->
+    <attr name="CommonContentItemViewStyle" format="reference"/>
+
+    <declare-styleable name="CommonContentItemView">
+        <attr name="fm_content_item_title" format="string"/>
+        <attr name="fm_content_item_tip" format="string"/>
+        <attr name="fm_content_item_et_hint" format="string"/>
+        <attr name="fm_content_item_et_content" format="string"/>
+        <attr name="fm_content_item_show_tip" format="boolean"/>
+        <attr name="fm_content_item_show_red" format="boolean"/>
+        <attr name="fm_content_item_show_line" format="boolean"/>
+        <attr name="fm_content_item_show_tip_icon" format="boolean"/>
+        <attr name="fm_content_item_tip_icon" format="reference"/>
+    </declare-styleable>
+
+    <!-- ClearEyeEditText -->
+    <declare-styleable name="ClearEyeEditText">
+        <attr name="android:inputType"/>
+        <attr name="android:hint"/>
+        <attr name="android:text"/>
+        <attr name="android:enabled"/>
+        <attr name="clreet_etBackGround" format="integer"/>
+        <attr name="clreet_bottomLineColor" format="color"/>
+        <attr name="clreet_bottomLineSize" format="dimension"/>
+        <attr name="clreet_clrBackGround" format="integer"/>
+        <attr name="clreet_eyeHideBackGround" format="integer"/>
+        <attr name="clreet_eyeShowBackGround" format="integer"/>
+    </declare-styleable>
+
+    <!-- CircleProgressView Attribute -->
+    <declare-styleable name="CircleProgressView">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"/>
+        <attr name="tvColor" format="color"/>
+        <attr name="downTvColor" format="color"/>
+        <attr name="proOrient" format="boolean"/>
+        <attr name="tvSize" format="dimension"/>
+        <attr name="down_tvSize" format="dimension"/>
+        <attr name="max" format="integer"/>
+        <attr name="textIsDisplayable" format="boolean"/>
+        <attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- TriMouthView Attribute -->
+    <declare-styleable name="TriMouthView">
+        <attr name="triitem_contentText" format="string"/>
+        <attr name="triitem_ctSize" format="dimension"/>
+        <attr name="triitem_ctColor" format="color"/>
+        <attr name="triitem_minems" format="integer"/>
+        <attr name="triitem_ctPaddingTop" format="dimension"/>
+        <attr name="triitem_ctPaddingBottom" format="dimension"/>
+        <attr name="triitem_ctPaddingLeft" format="dimension"/>
+        <attr name="triitem_ctPaddingRight" format="dimension"/>
+        <attr name="triitem_leftHeight" format="dimension"/>
+    </declare-styleable>
+
+    <!--自定义软键盘-->
+    <declare-styleable name="SafeKeyboardView">
+        <attr name="random_digit" format="boolean" />                   <!-- 数字随机显示 -->
+        <attr name="remember_last_type" format="boolean" />             <!-- 记住上次键盘输入类型 -->
+    </declare-styleable>
+</resources>

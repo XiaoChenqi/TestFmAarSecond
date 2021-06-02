@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--default dialog-->
+    <style name="fmDefaultDialog" parent="QMUI.Dialog">
+        <item name="qmui_dialog_wrapper_style">@style/dialog_wrapper_style_1</item>
+        <item name="qmui_dialog_title_style">@style/fmDefaultDialogTitleStyle</item>
+        <item name="qmui_dialog_action_container_style">@style/fmDefaultDialogActionContainerStyle
+        </item>
+        <item name="qmui_dialog_edit_content_style">@style/fmDefaultDialogEditStyle</item>
+    </style>
+
+    <!--dialog-->
+    <style name="fmDefaultWarnDialog" parent="QMUI.Dialog">
+        <item name="qmui_dialog_wrapper_style">@style/dialog_wrapper_warn_style_1</item>
+        <item name="qmui_dialog_title_style">@style/fmDefaultDialogTitleStyle</item>
+        <item name="qmui_dialog_action_container_style">@style/fmDefaultDialogActionContainerStyle
+        </item>
+        <item name="qmui_dialog_edit_content_style">@style/fmDefaultDialogEditStyle</item>
+    </style>
+
+    <!--整体dialog设置-->
+    <style name="dialog_wrapper_style_1">
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:paddingRight">@dimen/dp_20</item>
+    </style>
+
+    <!--整体dialog设置 (warn dialog)-->
+    <style name="dialog_wrapper_warn_style_1">
+        <item name="android:paddingLeft">@dimen/dp_0</item>
+        <item name="android:paddingRight">@dimen/dp_0</item>
+    </style>
+
+    <color name="dialogTitleBg">#f2f4f3</color>
+
+    <!--dialog 标题设置-->
+    <style name="fmDefaultDialogTitleStyle" parent="QMUI.Dialog.Title">
+        <item name="android:textColor">@color/grey_6</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:background">@color/dialogTitleBg</item>
+        <item name="android:layout_height">@dimen/dp_40</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/dp_13</item>
+        <item name="android:paddingRight">@dimen/dp_13</item>
+        <item name="android:paddingBottom">@dimen/dp_13</item>
+        <item name="android:paddingTop">@dimen/dp_13</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lineSpacingExtra">@dimen/dp_2</item>
+    </style>
+
+    <!--action（底部包裹菜单）区域设置-->
+    <style name="fmDefaultDialogActionContainerStyle">
+        <item name="android:paddingLeft">@dimen/dp_13</item>
+        <item name="android:paddingRight">@dimen/dp_13</item>
+        <item name="android:paddingTop">@dimen/dp_26</item>
+        <item name="android:paddingBottom">@dimen/dp_10</item>
+        <item name="qmui_dialog_action_space">20dp</item>
+        <item name="qmui_dialog_action_container_justify_content">stretch</item>
+    </style>
+
+    <!--EditView 设置-->
+    <style name="fmDefaultDialogEditStyle">
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textColor">@color/grey_6</item>
+        <item name="android:paddingLeft">@dimen/dp_13</item>
+        <item name="android:paddingRight">@dimen/dp_13</item>
+        <item name="android:paddingTop">@dimen/dp_33</item>
+    </style>
+
+
+</resources>

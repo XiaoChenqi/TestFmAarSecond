@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="logon_et">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/dp_7</item>
+        <item name="android:paddingTop">@dimen/dp_8</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColorHint">@color/grey_c</item>
+        <item name="android:paddingRight">@dimen/dp_32</item>
+        <item name="android:background">@drawable/et_bg_selector</item>
+    </style>
+
+    <style name="logon_hint">
+        <item name="android:textSize">@dimen/sp_9</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+</resources>

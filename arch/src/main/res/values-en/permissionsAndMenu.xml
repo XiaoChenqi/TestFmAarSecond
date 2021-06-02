@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--**********************公告**********************-->
+    <string name="home_bulletin_menu_title">Bulletin</string>
+    <string name="home_bulletin_permissions" translatable="false">m-bulletin</string>
+
+    <!--**********************巡检**********************-->
+    <string name="home_patrol_menu_title">Patrol</string>
+    <string name="home_patrol_permissions" translatable="false">m-patrol</string>
+
+    <string-array name="home_patrol_menu_child_title">
+        <item>Patrol task</item>
+        <item>Patrol Query</item>
+    </string-array>
+
+    <string-array name="home_patrol_menu_child_permissions">
+        <item>m-patrol-task</item>
+        <item>m-patrol-query</item>
+    </string-array>
+
+    <!--**********************服务台**********************-->
+    <string name="home_service_menu_title">Requirement</string>
+    <string name="home_service_permissions" translatable="false">m-requirement</string>
+
+    <string-array name="home_service_menu_child_title">
+        <item>Create</item>
+        <item>Unapproved</item>
+        <item>Uncompleted</item>
+        <item>Unevaluated</item>
+        <item>History</item>
+    </string-array>
+
+    <string-array name="home_service_menu_child_permissions">
+        <item>m-requirement-create</item>
+        <item>m-requirement-approval</item>
+        <item>m-requirement-process</item>
+        <item>m-requirement-evaluate</item>
+        <item>m-requirement-query</item>
+    </string-array>
+
+    <!--**********************工单**********************-->
+    <string name="home_workOrder_menu_title">WorkOrder</string>
+    <string name="home_workOrder_permissions" translatable="false">m-wo</string>
+
+    <string-array name="home_workOrder_menu_child_title">
+        <item>Created</item>
+        <item>Uncompleted</item>
+        <item>Unassigned</item>
+        <item>Unapproved</item>
+        <item>Verify</item>
+        <item>Archive</item>
+        <item>History</item>
+    </string-array>
+
+    <string-array name="home_workOrder_menu_child_permissions">
+        <item>m-wo-create</item>
+        <item>m-wo-process</item>
+        <item>m-wo-dispach</item>
+        <item>m-wo-approval</item>
+        <item>m-wo-verify</item>
+        <item>m-wo-close</item>
+        <item>m-wo-query</item>
+    </string-array>
+
+    <!--**********************计划性维护**********************-->
+    <string name="home_ppm_menu_title">PPM</string>
+    <string name="home_ppm_permissions" translatable="false">m-ppm</string>
+
+    <!--**********************资产**********************-->
+    <string name="home_asset_menu_title">Asset</string>
+    <string name="home_asset_permissions" translatable="false">m-asset</string>
+
+    <!--**********************能源管理**********************-->
+    <string name="home_energy_menu_title">Energy</string>
+    <string name="home_energy_permissions" translatable="false">m-energy</string>
+
+    <!--**********************库存**********************-->
+    <string name="home_inventory_menu_title">Inventory</string>
+    <string name="home_inventory_permissions" translatable="false">m-inventory</string>
+
+    <string-array name="home_inventory_menu_child_title">
+        <item>Create</item>
+        <item>Storage In</item>
+        <item>Storage Out</item>
+        <item>Storage Move</item>
+        <item>Storage Check</item>
+        <item>Reserve</item>
+        <item>My Reserved</item>
+        <item>Unapproved</item>
+        <item>History</item>
+    </string-array>
+    <string-array name="home_inventory_menu_child_permissions">
+        <item>m-inventory-create</item>
+        <item>m-inventory-in</item>
+        <item>m-inventory-out</item>
+        <item>m-inventory-move</item>
+        <item>m-inventory-check</item>
+        <item>m-inventory-reserve</item>
+        <item>m-inventory-my</item>
+        <item>m-inventory-approval</item>
+        <item>m-inventory-query</item>
+    </string-array>
+
+    <!--**********************在岗管理**********************-->
+    <string name="home_sign_menu_title">Sign</string>
+    <string name="home_sign_permissions" translatable="false">m-sign</string>
+
+    <!--**********************合同管理**********************-->
+    <string name="home_contract_menu_title">Contract</string>
+    <string name="home_contract_permissions" translatable="false">m-contract</string>
+
+    <string-array name="home_contract_menu_child_title">
+        <item>Management</item>
+        <item>History</item>
+    </string-array>
+
+    <string-array name="home_contract_menu_child_permissions">
+        <item>m-contract-process</item>
+        <item>m-contract-query</item>
+    </string-array>
+
+    <!--**********************报表**********************-->
+    <string name="home_chart_menu_title">Chart</string>
+    <string name="home_chart_permissions" translatable="false">m-chart</string>
+
+    <!--**********************缴费管理**********************-->
+    <string name="home_pay_menu_title">E-Payment</string>
+    <string name="home_pay_permissions" translatable="false">m-payment</string>
+
+    <string-array name="home_pay_menu_child_title">
+        <item>Create Payment</item>
+        <item>Unpaid</item>
+        <item>Paid</item>
+        <item>Payment Query</item>
+        <item>Refunds</item>
+        <item>Refunds Query</item>
+    </string-array>
+
+    <string-array name="home_pay_menu_child_permissions">
+        <item>m-payment-create</item>
+        <item>m-payment-unpaid</item>
+        <item>m-payment-paid</item>
+        <item>m-payment-refund</item>
+        <item>m-payment-paidQuery</item>
+        <item>m-payment-refundQuery</item>
+    </string-array>
+
+    <!--**********************智慧运维**********************-->
+    <string name="home_monitoring_menu_title">Monitoring</string>
+    <string name="home_monitoring_permissions" translatable="false">m-monitoring</string>
+
+    <!--**********************访客管理**********************-->
+    <string name="home_visit_menu_title">Visitor</string>
+    <string name="home_visit_permissions" translatable="false">m-visit</string>
+
+    <string-array name="home_visit_menu_child_title">
+        <item>Create</item>
+        <item>Query</item>
+    </string-array>
+
+    <string-array name="home_visit_menu_child_permissions">
+        <item>m-visitor-create</item>
+        <item>m-visitor-query</item>
+    </string-array>
+
+    <!--**********************知识库**********************-->
+    <string name="home_knowledge_menu_title">Knowledge</string>
+    <string name="home_knowledge_permissions" translatable="false">m-repository</string>
+
+    <!--**********************承接查验**********************-->
+    <string name="home_inspection_menu_title">Inspection</string>
+    <string name="home_inspection_permissions" translatable="false">m-inspection</string>
+
+    <string-array name="home_inspection_menu_child_title">
+        <item>Inspection Task</item>
+        <item>Validation Task</item>
+        <item>History</item>
+    </string-array>
+
+    <string-array name="home_inspection_menu_child_permissions">
+        <item>m-inspection-task</item>
+        <item>m-inspection-archive</item>
+        <item>m-inspection-query</item>
+    </string-array>
+
+</resources>

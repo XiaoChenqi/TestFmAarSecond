@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_40"
+    android:background="@color/app_bg">
+
+    <TextView
+        android:id="@+id/history_time_sep"
+        style="@style/h4_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/list_query_head"
+        android:gravity="center"
+        android:minWidth="@dimen/dp_100"
+        android:text="~" />
+
+    <TextView
+        android:id="@+id/history_pre_iv"
+        style="@style/h4_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/history_time_sep"
+        android:background="@drawable/list_query_head"
+        android:gravity="center"
+        android:paddingRight="@dimen/dp_16"
+        android:text="@string/arch_pre_month" />
+
+    <TextView
+        android:id="@+id/history_next_iv"
+        style="@style/h4_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/history_time_sep"
+        android:background="@drawable/list_query_head"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dp_16"
+        android:text="@string/arch_next_month" />
+
+    <View
+        android:id="@+id/bottom_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0.4"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey_d6" />
+</RelativeLayout>
