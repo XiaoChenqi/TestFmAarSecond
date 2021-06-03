@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/root_rl"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/list_item_bg"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/title_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_16">
+
+        <TextView
+            android:id="@+id/name_tv"
+            style="@style/h3_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/device_status_tv"
+            style="@style/patrolTagStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fm_patrol_red_tag_bg"
+            android:text="@string/patrol_dianwei_disable_label"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/exception_tv"
+            style="@style/patrolTagStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_14"
+            android:background="@drawable/fm_patrol_red_tag_bg"
+            android:text="@string/patrol_query_exception"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/miss_tv"
+            style="@style/patrolTagStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_14"
+            android:background="@drawable/fm_patrol_orange_tag_bg"
+            android:text="@string/patrol_query_leak"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/state_tv"
+            style="@style/patrolTagStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_14"
+            android:text="@string/patrol_task_spot_unfinish"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_check_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16">
+
+        <TextView
+            style="@style/h5_13_9_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patrol_task_check_content"/>
+
+        <TextView
+            android:id="@+id/item_tv"
+            style="@style/h5_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"/>
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/icon_right"
+            android:textColor="@color/grey_9"
+            android:textSize="@dimen/sp_14"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/short_view"
+        style="@style/dash_line_style"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_16"
+        android:visibility="gone"
+        />
+
+    <View
+        android:id="@+id/long_view"
+        style="@style/secant_line_style"
+        android:layout_marginTop="@dimen/dp_16"
+        android:visibility="gone"
+        />
+</LinearLayout>

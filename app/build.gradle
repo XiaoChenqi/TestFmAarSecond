@@ -1,17 +1,48 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.example.testfmaarsecond"
-        minSdkVersion 23
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion rootProject.ext.appMinSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName_lib
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [ALIYUN_PUSH_APP_KEY   : ALIYUN_PUSH_APP_KEY,
+                                ALIYUN_PUSH_APP_SECRET: ALIYUN_PUSH_APP_SECRET,
+                                MAP_API_KEY           : MAP_API_KEY,
+                                SERVICE_VALUE         : SERVICE_VALUE,
+                                UMENG_CHANNEL_VALUE   : "TEST"
+        ]
+
+        buildConfigField "String", "SERVER_URL", "\"https://wechat.fmone.cn\""
+
+        buildConfigField "String", "UPDATE_CHANNEL", "\"AzTj2xWHbEpXnfQw\""
+        buildConfigField "String", "UPDATE_APP_KEY", "\"jCZamTWiwGfrKEM3jmzDysb2amjazfJy\""
+
+        buildConfigField "String", "APP_KEY", "\"00000000\""
+        buildConfigField "String", "APP_SECRET", "\"11111111\""
+
+        buildConfigField "boolean", "NEED_UPDATE_RECORD", "true"
+        buildConfigField "String", "CUSTOMER_CODE", "\"zSXDCeATbPymrsDi\""
+
+        buildConfigField "String", "UMENG_CHANNEL_KEY", "\"${UMENG_CHANNEL_KEY}\""
+        buildConfigField "String", "UMENG_CHANNEL_VALUE", "\"${UMENG_CHANNEL_VALUE}\""
+        buildConfigField "String", "QQZONE_KEY", "\"${QQZONE_KEY}\""
+        buildConfigField "String", "QQZONE_SECRET", "\"${QQZONE_SECRET}\""
+        buildConfigField "String", "DING_DING_SECRET", "\"${DING_DING_SECRET}\""
+        buildConfigField "String", "WEI_XIN_KEY", "\"${WEI_XIN_KEY}\""
+        buildConfigField "String", "WEI_XIN_SECRET", "\"${WEI_XIN_SECRET}\""
+
+        buildConfigField "String", "MI_APPID", "\"${MI_APPID}\""
+        buildConfigField "String", "MI_APPKEY", "\"${MI_APPKEY}\""
+
+        buildConfigField "String", "ALIYUN_PUSH_APP_KEY", "\"${ALIYUN_PUSH_APP_KEY}\""
+        buildConfigField "String", "ALIYUN_PUSH_APP_SECRET", "\"${ALIYUN_PUSH_APP_SECRET}\""
     }
 
     buildTypes {
@@ -21,21 +52,35 @@ android {
         }
     }
 
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation 'android.arch.navigation:navigation-fragment:1.0.0'
+//    implementation 'android.arch.navigation:navigation-ui:1.0.0'
+    implementation 'com.android.support:appcompat-v7:26.0.0'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    api 'com.github.XiaoChenqi:TestFmAarSecond:4.1'
 
-//    com.github.XiaoChenqi.TestFmAarSecond:testlib1:4.1
-//    com.github.XiaoChenqi.TestFmAarSecond:basicres:4.1
-//    com.github.XiaoChenqi.TestFmAarSecond:basiclib:4.1
-//    com.github.XiaoChenqi.TestFmAarSecond:arch:4.1
+    //api 'com.github.XiaoChenqi:TestFmAarSecond:4.1'
+    api project(':patrolcomponent3')
+    //api project(':arch')
+     //api project(':testlib2')
+
+    //依赖aar和远程基础库
+//    implementation(name: 'demandcomponent', ext: 'aar')
+//    api 'com.github.xh2015.AarTest:arch:1.0.2'
+
 }

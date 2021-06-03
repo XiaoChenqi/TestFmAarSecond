@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 巡检 状态 -->
+    <string-array name="patrol_spot_label_stat">
+        <item>正常</item>
+        <item>异常</item>
+        <item>漏检</item>
+        <item>报修</item>
+    </string-array>
+
+    <!-- 巡检任务状态 -->
+    <string-array name="patrol_task_label_stat">
+        <item>未开始</item>
+        <item>进行中</item>
+        <item>按时完成</item>
+        <item>延期完成</item>
+        <item>未巡检</item>
+        <item>补检</item>
+    </string-array>
+
+    <!-- 排序方式 -->
+    <string-array name="patrol_sort_order_label">
+        <item>默认排序</item>
+        <item>预估开始时间升序</item>
+        <item>预估开始时间降序</item>
+    </string-array>
+</resources>

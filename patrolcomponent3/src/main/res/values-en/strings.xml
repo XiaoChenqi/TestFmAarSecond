@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">patrolcomponent</string>
+
+    <!--巡检设备-->
+    <string name="patrol_device">Device</string>
+    <!--获取数据失败-->
+    <string name="patrol_get_data_error">Get Data Failed</string>
+    <!--记录填写-->
+    <string name="patrol_comment_title">Enter Records</string>
+    <!--确定-->
+    <string name="patrol_sure">Confirm</string>
+    <!--无常见异常-->
+    <string name="patrol_faq_empty">No common exception</string>
+    <!--综合巡检-->
+    <string name="patrol_task_spot_content">Comprehensive Inspection</string>
+    <!--提示-->
+    <string name="patrol_remind">Tips</string>
+    <!--忽略-->
+    <string name="patrol_miss">Ignore</string>
+    <!--检查-->
+    <string name="patrol_check">Check</string>
+    <!--检测到当前存在漏检项，是否忽略-->
+    <string name="patrol_content_miss_tip">Some items are leak, will you ignore them?</string>
+    <!--上一项-->
+    <string name="patrol_check_pre">Last Item</string>
+    <!--下一项-->
+    <string name="patrol_check_next">Next Item</string>
+    <!--完成-->
+    <string name="patrol_finish_x2">Complete</string>
+    <!--拍照-->
+    <string name="patrol_camera">Take A Photo</string>
+    <!--选择照片-->
+    <string name="patrol_select_photo_title">Select Photo</string>
+    <!--从相册中选择-->
+    <string name="patrol_select_photo">Choose From Photos</string>
+    <!--取消-->
+    <string name="patrol_cancel">Cancel</string>
+    <!--你最多可以选择%d张图片-->
+    <string name="patrol_select_photo_at_most">You can select at most %d images</string>
+    <!--暂无功能-->
+    <string name="patrol_no_function">No function</string>
+    <!--巡检-->
+    <string name="patrol_name">Patrol</string>
+    <!--巡检离线数据下载完成-->
+    <string name="patrol_offline_download_success">Download Success</string>
+    <!--标记为已处理-->
+    <string name="patrol_task_query_handle_mark">Tag To Solve</string>
+    <!--报修-->
+    <string name="patrol_task_query_repair">Repair</string>
+    <!--取消-->
+    <string name="patrol_task_submit_cancel">Cancel</string>
+    <!--巡检查询-->
+    <string name="patrol_query">Patrol Query</string>
+    <!--不限-->
+    <string name="patrol_unlimited">Unlimited</string>
+    <!--年-->
+    <string name="patrol_year">-</string>
+    <!--月-->
+    <string name="patrol_month"></string>
+    <!--时间选择有误-->
+    <string name="patrol_select_time_error">Wrong timing</string>
+    <!--无更多数据-->
+    <string name="patrol_no_more_data">No data</string>
+    <!--巡检任务-->
+    <string name="patrol_task">Inspection Task</string>
+    <!--巡检点位-->
+    <string name="patrol_spot">Patrol Spot</string>
+    <!--请先完成过期任务-->
+    <string name="patrol_overdue_task_tip">Please finish overdue task</string>
+    <!--提交-->
+    <string name="patrol_submit">Submit</string>
+    <!--全部-->
+    <string name="patrol_task_spot_all">All</string>
+    <!--完成-->
+    <string name="patrol_task_spot_finish">Completed</string>
+    <!--未完成-->
+    <string name="patrol_task_spot_unfinish">Uncompleted</string>
+    <!--请使用NFC操作-->
+    <string name="patrol_spot_operate_tip">Please use NFC operation</string>
+    <!--未同步-->
+    <string name="patrol_not_sync">Not synced</string>
+    <!--二维码不正确，请确认-->
+    <string name="patrol_qrcode_no_match">QR Code is incorrect,please confirm</string>
+    <!--操作成功-->
+    <string name="patrol_operate_ok">Operate successfully</string>
+    <!--操作失败-->
+    <string name="patrol_operate_fail">Operate failed</string>
+    <!--暂无需要同步点位-->
+    <string name="patrol_no_sync_spot">There is currently no data to synchronize</string>
+    <!--是否提交-->
+    <string name="patrol_task_submit_hip_title">Whether submit or not</string>
+    <!--你有巡检点位处于未完成状态，是否提交?-->
+    <string name="patrol_task_submit_unfinish_detail_pre">Whether submit or not? You still some spot items uncompleted</string>
+    <!--你还有%d个检查项未做,是否提交？-->
+    <string name="patrol_task_submit_hip_detail">Whether submit or not ? You still have %d inspection items uncompleted</string>
+    <!--抱歉，您的设备不支持NFC-->
+    <string name="patrol_not_support_nfc">NFC!</string>
+    <!--您尚未登录，请确认-->
+    <string name="patrol_not_login_tip">You have not logged in,please confirm</string>
+    <!--应用尚未打开，请确认!-->
+    <string name="patrol_not_open_app_tip">Application has not been opened,please confirm!</string>
+    <!--再按一次退出-->
+    <string name="patrol_press_exit_again">Press exit again</string>
+    <!--常见异常-->
+    <string name="patrol_exceptions">Common Exception</string>
+    <!--请输入您的记录-->
+    <string name="patrol_comment_hint">Please enter your records...</string>
+    <!--是否停机-->
+    <string name="patrol_dianwei_device_stop_tip">Stop or Not</string>
+    <!--上一页-->
+    <string name="patrol_check_pre_page">Last Page</string>
+    <!--下一页-->
+    <string name="patrol_check_next_page">Next Page</string>
+    <!--扫一扫-->
+    <string name="patrol_scan">Scan QR Code</string>
+    <!--将手机贴近点位标签-->
+    <string name="patrol_nfc_read_tip">Place the cellphone close to the label</string>
+    <!--设备信息-->
+    <string name="patrol_device_info">Equipment</string>
+    <!--设备名称:-->
+    <string name="patrol_device_name">Name:</string>
+    <!--已停机-->
+    <string name="patrol_dianwei_disable_label">Stopped</string>
+    <!--所属系统-->
+    <string name="patrol_device_type">Belongs to:</string>
+    <!--巡检内容-->
+    <string name="patrol_check_content">Inspection Works</string>
+    <!--工单列表-->
+    <string name="patrol_task_query_detail_order">Work Order</string>
+    <!--巡检名称-->
+    <string name="patrol_task_name_title">Patrol Name:</string>
+    <!--请输入巡检名称-->
+    <string name="patrol_task_name_hint">Please Enter Patrol Name</string>
+    <!--工作组-->
+    <string name="patrol_task_org_title">Team</string>
+    <!--清除-->
+    <string name="patrol_clear_tip">Clear</string>
+    <!--请选择-->
+    <string name="patrol_select_hint">Please select</string>
+    <!--请选择工作组-->
+    <string name="patrol_select_work_team_hint">Please select a team</string>
+    <!--巡检时间-->
+    <string name="patrol_query_menu_time">Patrol Time</string>
+    <!--开始时间-->
+    <string name="patrol_query_menu_start_time">Start Time</string>
+    <!--结束时间-->
+    <string name="patrol_query_menu_end_time">End Time</string>
+    <!--任务状态-->
+    <string name="patrol_query_menu_task_status">Task Status</string>
+    <!--点位状态-->
+    <string name="patrol_query_menu_status">Spot Status</string>
+    <!--点位状态-->
+    <string name="patrol_query_menu_sort">Sort By</string>
+    <!--重置-->
+    <string name="patrol_reset">Reset</string>
+    <!--漏检-->
+    <string name="patrol_query_leak">Leak</string>
+    <!--异常-->
+    <string name="patrol_query_exception">Exception</string>
+    <!--巡检人员：-->
+    <string name="patrol_task_query_laborer_tip">Inspector:</string>
+    <!--巡检周期:-->
+    <string name="patrol_task_query_period_tip">Frequency:</string>
+    <!--计划时间:-->
+    <string name="patrol_task_query_plan_tip">Scheduled Time:</string>
+    <!--实际时间:-->
+    <string name="patrol_task_query_actual_tip">Actual Time:</string>
+    <!--检查项-->
+    <string name="patrol_task_check_content">Inspection Item:</string>
+    <!--未开始-->
+    <string name="patrol_check_content_unstart">Not yet started</string>
+    <!--预估开始时间-->
+    <string name="patrol_task_begin_time">Start Time:</string>
+    <!--预估结束时间-->
+    <string name="patrol_task_end_time">End Time:</string>
+    <!--巡检结果-->
+    <string name="patrol_task_query_check_content_result">Inspection Result:</string>
+    <!--故障描述-->
+    <string name="patrol_task_query_check_content_describe">Work content:</string>
+    <!--处理-->
+    <string name="patrol_task_query_handle">Solve</string>
+    <!--操作人-->
+    <string name="patrol_task_operator">Operator:</string>
+    <!--操作类型-->
+    <string name="patrol_task_operator_type">Operation type:</string>
+    <!--操作时间-->
+    <string name="patrol_task_operation_time">Operation Time:</string>
+    <!--综合-->
+    <string name="patrol_spot_comprehensive_tip">Synthetic:</string>
+    <!--设备-->
+    <string name="patrol_spot_device_tip">Equipment:</string>
+    <!--位置-->
+    <string name="patrol_spot_position_tip">Location:</string>
+    <!--处理人-->
+    <string name="patrol_operator">Handler:</string>
+    <!--查看任务下所有点位-->
+    <string name="patrol_spot_scan_tip">Check all spots under the task</string>
+    <!--点位-->
+    <string name="patrol_dianwei">Spots:</string>
+    <!--立即查看-->
+    <string name="patrol_look">Show More Details</string>
+    <string name="patrol_input_number_hint">Enter a value here</string>
+    <!--共%d张-->
+    <string name="patrol_total">A total of %d</string>
+    <!--个-->
+    <string name="patrol_task_diawei_ge"> </string>
+    <!--已完成-->
+    <string name="patrol_finish">Completed</string>
+    <!--未完成-->
+    <string name="patrol_unfinish">Uncompleted</string>
+    <!--是否确定删除该图片-->
+    <string name="patrol_sure_delete_photo">Whether delete this photo or not?</string>
+    <!--%d个点位-->
+    <string name="patrol_task_diawei_ge_spot">%d spot</string>
+    <!--巡检人员(计划)：-->
+    <string name="patrol_task_query_laborer_plan_tip">Inspector(Plan):</string>
+    <!--已处理-->
+    <string name="patrol_task_query_exception_handle">Solved</string>
+    <!--现状处理-->
+    <string name="patrol_operate_type_mark">Current situation treatment</string>
+    <!--项-->
+    <string name="patrol_task_zonghe_xiang"> </string>
+    <!--已同步-->
+    <string name="patrol_sync">Synced</string>
+    <!--上传照片-->
+    <string name="patrol_check_item_upload_pic"> Uploaded</string>
+    <!--下载进度:-->
+    <string name="patrol_dowmload_progress">Download progress：</string>
+</resources>

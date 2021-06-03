@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/dp_16">
+
+        <TextView
+            android:id="@+id/name_tv"
+            style="@style/h3_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_12"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_12"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/dp_16">
+
+            <TextView
+                android:id="@+id/repair_tv"
+                style="@style/patrolTagStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_12"
+                android:background="@drawable/fm_patrol_blue_tag_bg"
+                android:text="@string/patrol_task_query_repair"/>
+
+            <TextView
+                android:id="@+id/miss_tv"
+                style="@style/patrolTagStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_12"
+                android:background="@drawable/fm_patrol_orange_tag_bg"
+                android:text="@string/patrol_query_leak"/>
+
+            <TextView
+                android:id="@+id/exception_tv"
+                style="@style/patrolTagStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_12"
+                android:background="@drawable/fm_patrol_red_tag_bg"
+                android:text="@string/patrol_query_exception"/>
+
+
+        </LinearLayout>
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/expand_itv"
+            android:layout_width="@dimen/dp_18"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/icon_arrow_down"
+            android:textColor="@color/grey_c"
+            android:textSize="@dimen/sp_18"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/long_view"
+        style="@style/secant_line_style"/>
+
+</LinearLayout>

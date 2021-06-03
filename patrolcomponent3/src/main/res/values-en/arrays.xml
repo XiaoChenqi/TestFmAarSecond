@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 巡检 状态 -->
+    <string-array name="patrol_spot_label_stat">
+        <item>Normal</item>
+        <item>Exception</item>
+        <item>Leak</item>
+        <item>Repair</item>
+    </string-array>
+
+    <!-- 巡检任务状态 -->
+    <string-array name="patrol_task_label_stat">
+        <item>Not Started</item>
+        <item>In Process</item>
+        <item>Complete</item>
+        <item>Delay</item>
+        <item>No Patrol</item>
+        <item>Fill Up</item>
+    </string-array>
+
+    <!-- 排序方式 -->
+    <string-array name="patrol_sort_order_label">
+        <item>Default sort</item>
+        <item>Estimated start time ascending</item>
+        <item>Estimated start time descending</item>
+    </string-array>
+</resources>

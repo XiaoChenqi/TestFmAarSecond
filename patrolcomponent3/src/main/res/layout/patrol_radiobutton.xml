@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatRadioButton
+    android:id="@+id/arb"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="@dimen/dp_10"
+    style="@style/h3_text_style"
+    android:layout_marginBottom="@dimen/dp_15"
+    android:theme="@style/MyRadioButton"
+    />

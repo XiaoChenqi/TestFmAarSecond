@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="patrol_main_id" type="id"/>
+    <item name="patrol_nfc_id" type="id"/>
+    <item name="patrol_spot_upload_id" type="id"/>
+    <item name="patrol_exception_sure_id" type="id"/>
+</resources>

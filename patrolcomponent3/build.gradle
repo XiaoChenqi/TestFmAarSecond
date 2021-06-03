@@ -1,0 +1,50 @@
+//apply plugin: 'com.dd.comgradle'
+apply plugin: 'com.android.library'
+//apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.libMinSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName_lib
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [host: "patrol"]
+            }
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api project(':arch')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    api 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    annotationProcessor 'com.luojilab.ddcomponent:router-anno-compiler:1.0.0'
+}
+
+//combuild {
+//    applicationName = 'com.facilityone.wireless.patrol.runalone.PatrolApplication'
+//    isRegisterCompoAuto = false
+//}
+
+repositories {
+    mavenCentral()
+}

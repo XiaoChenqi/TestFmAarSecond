@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--巡检内容顶部菜单-->
+    <style name="patrolTopMenuStyle">
+        <item name="android:textSize">@dimen/sp_13</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:paddingTop">@dimen/dp_6</item>
+        <item name="android:paddingBottom">@dimen/dp_6</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="patrolTagStyle">
+        <item name="android:textSize">@dimen/sp_11</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingTop">@dimen/dp_2</item>
+        <item name="android:paddingBottom">@dimen/dp_2</item>
+        <item name="android:paddingRight">@dimen/dp_4</item>
+        <item name="android:paddingLeft">@dimen/dp_4</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/grey_ba</item>
+        <item name="colorControlActivated">@color/patrol_rg</item>
+    </style>
+</resources>

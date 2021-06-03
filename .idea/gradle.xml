@@ -14,7 +14,7 @@
             <option value="$PROJECT_DIR$/arch" />
             <option value="$PROJECT_DIR$/basiclib" />
             <option value="$PROJECT_DIR$/basicres" />
-            <option value="$PROJECT_DIR$/testlib1" />
+            <option value="$PROJECT_DIR$/patrolcomponent3" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

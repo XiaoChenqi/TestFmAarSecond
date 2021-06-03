@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.qmuiteam.qmui.widget.QMUITopBarLayout
+        android:id="@+id/ui_topbar"
+        style="@style/commonTopbarStyle"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/all_tag_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="@dimen/dp_16"
+                    android:paddingLeft="@dimen/dp_24"
+                    android:paddingRight="@dimen/dp_24"
+                    android:paddingTop="@dimen/dp_16">
+
+                    <TextView
+                        android:id="@+id/all_tag_tv"
+                        style="@style/patrolTopMenuStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/fm_patrol_left_fill_bg"
+                        android:text="@string/patrol_task_spot_all"/>
+
+
+                    <TextView
+                        android:id="@+id/not_sync_tv"
+                        style="@style/patrolTopMenuStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/fm_patrol_center_empty_bg"
+                        android:text="@string/patrol_not_sync"
+                        android:textColor="@color/green_1ab394"/>
+
+                    <TextView
+                        android:id="@+id/unfinish_tv"
+                        style="@style/patrolTopMenuStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/fm_patrol_right_empty_bg"
+                        android:text="@string/patrol_task_spot_unfinish"
+                        android:textColor="@color/green_1ab394"/>
+                </LinearLayout>
+
+                <View style="@style/secant_line_style"/>
+            </LinearLayout>
+
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/refreshLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srlDisableContentWhenLoading="true"
+                app:srlDisableContentWhenRefresh="true"
+                app:srlEnableAutoLoadMore="false"
+                app:srlEnableLoadMore="false"
+                app:srlEnablePreviewInEditMode="true">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never"/>
+
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/spot_sync_tv"
+            android:layout_width="@dimen/dp_64"
+            android:layout_height="@dimen/dp_64"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_16"
+            android:background="@drawable/icon_sync"
+            android:clickable="true"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

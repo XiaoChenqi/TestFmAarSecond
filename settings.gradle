@@ -1,7 +1,6 @@
 rootProject.name='TestFmAarSecond'
 include ':app'
-//include ':basicres'
-include ':testlib1'
 include ':basicres'
 include ':basiclib'
 include ':arch'
+include ":patrolcomponent3"

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ll_menu"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="right"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/work_order_query_menu_filter_sv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--名称-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_17"
+
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp_13"
+                android:paddingRight="@dimen/dp_13">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/h3_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/patrol_task_name_title"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_6"
+                        android:gravity="center_vertical"
+                        android:text="*"
+                        android:textColor="@color/red"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_11">
+
+                    <EditText
+                        android:id="@+id/name_et"
+                        style="@style/h5_text_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_33"
+                        android:layout_weight="1"
+                        android:background="@drawable/query_input_background"
+                        android:gravity="center_vertical"
+                        android:hint="@string/patrol_task_name_hint"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/dp_16"
+                        android:paddingRight="@dimen/dp_16"
+                        android:textColorHint="@color/grey_b2"/>
+
+                    <ImageView
+                        android:id="@+id/clear_name_iv"
+                        android:layout_width="@dimen/dp_16"
+                        android:layout_height="@dimen/dp_16"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp_8"
+                        android:background="@drawable/icon_delete_et_selector"
+                        android:scaleType="center"
+                        android:visibility="gone"/>
+                </RelativeLayout>
+
+                <View
+                    style="@style/secant_line_style"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp_13"
+                android:paddingRight="@dimen/dp_13">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/h3_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/patrol_task_org_title"/>
+
+                    <TextView
+                        android:id="@+id/clear_team_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/dp_16"
+                        android:paddingRight="@dimen/dp_16"
+                        android:text="@string/patrol_clear_tip"
+                        android:textColor="@color/content_text_blue"
+                        android:textSize="@dimen/sp_12"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_6"
+                        android:gravity="center_vertical"
+                        android:text="*"
+                        android:textColor="@color/red"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:paddingRight="@dimen/dp_16"
+                    android:layout_marginTop="@dimen/dp_11"
+                    android:background="@drawable/query_input_bg_selector">
+
+                    <TextView
+                        android:id="@+id/dep_tv"
+                        style="@style/h5_text_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:layout_weight="1"
+                        android:ellipsize="marquee"
+                        android:gravity="center_vertical"
+                        android:hint="@string/patrol_select_work_team_hint"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColorHint="@color/grey_b2"/>
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/icon_right"
+                        android:textColor="@color/grey_9"
+                        android:textSize="@dimen/sp_14"/>
+
+                    <ImageView
+                        android:id="@+id/clear_team_iv"
+                        android:layout_width="@dimen/dp_16"
+                        android:layout_height="@dimen/dp_16"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp_8"
+                        android:background="@drawable/icon_delete_et_selector"
+                        android:scaleType="center"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+                <View
+                    style="@style/secant_line_style"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="@dimen/dp_17"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp_13"
+                android:paddingRight="@dimen/dp_13">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/h3_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/patrol_query_menu_time"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_6"
+                        android:gravity="center_vertical"
+                        android:text="*"
+                        android:textColor="@color/red"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_11"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/time_start"
+                        style="@style/h5_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dp_33"
+                        android:layout_weight="1"
+                        android:background="@drawable/query_input_bg_selector"
+                        android:gravity="center_vertical"
+                        android:hint="@string/patrol_query_menu_start_time"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/dp_16"
+                        android:textColorHint="@color/grey_b2"/>
+
+                    <TextView
+                        android:id="@+id/work_order_create_time_line"
+                        style="@style/h5_text_style"
+                        android:layout_width="@dimen/dp_27"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:text="—"/>
+
+
+                    <TextView
+                        android:id="@+id/time_end"
+                        style="@style/h5_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dp_33"
+                        android:layout_weight="1"
+                        android:background="@drawable/query_input_bg_selector"
+                        android:gravity="center_vertical"
+                        android:hint="@string/patrol_query_menu_end_time"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/dp_16"
+                        android:textColorHint="@color/grey_b2"/>
+                </LinearLayout>
+
+                <View
+                    style="@style/secant_line_style"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_4"
+
+                android:layout_marginTop="@dimen/dp_20"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_13"
+                android:paddingRight="@dimen/dp_13">
+
+                <TextView
+                    style="@style/h3_text_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/patrol_query_menu_task_status"/>
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_16"
+                    android:text="@string/icon_down"
+                    android:textColor="@color/grey_9"
+                    android:textSize="@dimen/sp_18"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <!--任务列表-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/task_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/dp_13"
+                android:scrollbars="none"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_4"
+                android:layout_marginTop="@dimen/dp_20"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_13"
+                android:paddingRight="@dimen/dp_13">
+
+                <TextView
+                    style="@style/h3_text_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/patrol_query_menu_status"/>
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_16"
+                    android:text="@string/icon_down"
+                    android:textColor="@color/grey_9"
+                    android:textSize="@dimen/sp_18"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <!--点位状态-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/spot_status_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/dp_13"
+                android:scrollbars="none"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_4"
+                android:layout_marginTop="@dimen/dp_20"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_13"
+                android:paddingRight="@dimen/dp_13">
+
+                <TextView
+                    style="@style/h3_text_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/patrol_query_menu_sort"/>
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_16"
+                    android:text="@string/icon_down"
+                    android:textColor="@color/grey_9"
+                    android:textSize="@dimen/sp_18"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <!--排序方式-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/sort_order_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/dp_13"
+                android:scrollbars="none"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/menu_btn_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_13"
+        android:paddingRight="@dimen/dp_13"
+        android:paddingTop="@dimen/dp_10">
+
+        <Button
+            android:id="@+id/reset_btn"
+            style="@style/btn_main_color_style.cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/patrol_reset"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/sure_btn"
+            style="@style/btn_main_color_style"
+            android:layout_width="0dp"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:layout_weight="1"
+            android:text="@string/patrol_sure"/>
+    </LinearLayout>
+</LinearLayout>
