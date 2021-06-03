@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/list_item_bg"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_16">
+
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            style="@style/maintenanceStyle">
+
+            <TextView
+                android:id="@+id/maintenance_item_name_tv"
+                style="@style/h5_text_style"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/maintenance_item_workorder_tag_tv"
+                style="@style/tag_text_style"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/maintenance_workorder_tag_fill_purple_background"
+                android:text="@string/maintenance_order"/>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/maintenance_item_status_tag_tv"
+                style="@style/tag_text_style"
+                android:layout_marginLeft="@dimen/dp_7"
+                android:background="@drawable/maintenance_finished_tag_fill_green_background"
+                android:text="已完成"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/maintenanceStyle">
+
+            <TextView
+                style="@style/content_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maintenance_date_tip"/>
+
+            <TextView
+                android:id="@+id/maintenance_item_time_tv"
+                style="@style/h5_text_style"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/icon_right"
+                android:textColor="@color/grey_9"
+                android:textSize="@dimen/sp_14"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/maintenance_item_dash_line"
+        style="@style/dash_line_style"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"/>
+
+    <View
+        android:id="@+id/maintenance_item_secant_line"
+        style="@style/secant_line_style"/>
+
+
+</LinearLayout>

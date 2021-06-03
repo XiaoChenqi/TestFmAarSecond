@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="workorder_main_id" type="id"/>
+    <item name="workorder_upload_menu_id" type="id"/>
+    <item name="workorder_laborer_menu_id" type="id"/>
+    <item name="workorder_dispatch_menu_id" type="id"/>
+    <item name="workorder_laborer_list_menu_id" type="id"/>
+    <item name="workorder_approval_upload_menu_id" type="id"/>
+    <item name="workorder_input_save_menu_id" type="id"/>
+    <item name="workorder_device_add_menu_id" type="id"/>
+    <item name="workorder_device_save_menu_id" type="id"/>
+    <item name="workorder_tools_add_menu_id" type="id"/>
+    <item name="workorder_tools_save_menu_id" type="id"/>
+    <item name="workorder_charges_add_menu_id" type="id"/>
+    <item name="workorder_charges_save_menu_id" type="id"/>
+    <item name="workorder_step_save_menu_id" type="id"/>
+    <item name="workorder_space_add_menu_id" type="id"/>
+    <item name="workorder_space_save_menu_id" type="id"/>
+    <item name="workorder_reserve_id" type="id"/>
+</resources>

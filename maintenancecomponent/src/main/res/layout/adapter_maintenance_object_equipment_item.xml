@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_18">
+
+        <LinearLayout
+            style="@style/maintenanceInfoStyle">
+
+            <TextView
+                style="@style/content_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maintenance_device_code"/>
+
+            <TextView
+                android:id="@+id/maintenance_object_equipment_item_code_tv"
+                style="@style/h5_text_style"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/maintenanceInfoStyle">
+
+            <TextView
+                style="@style/content_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maintenance_device_name"/>
+
+            <TextView
+                android:id="@+id/maintenance_object_equipment_item_name_tv"
+                style="@style/h5_text_style"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/maintenanceInfoStyle">
+
+            <TextView
+                style="@style/content_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maintenance_device_type"/>
+
+            <TextView
+                android:id="@+id/maintenance_object_equipment_item_type_tv"
+                style="@style/h5_text_style"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/maintenanceInfoStyle">
+
+            <TextView
+                style="@style/content_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maintenance_device_location"/>
+
+            <TextView
+                android:id="@+id/maintenance_object_equipment_item_position_tv"
+                style="@style/h5_text_style"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/maintenance_object_equipment_item_dash_line"
+        style="@style/dash_line_style"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_marginLeft="@dimen/dp_16"/>
+
+    <View
+        android:id="@+id/maintenance_object_equipment_item_secant_line"
+        style="@style/secant_line_style"/>
+
+</LinearLayout>

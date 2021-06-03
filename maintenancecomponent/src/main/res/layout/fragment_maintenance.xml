@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.qmuiteam.qmui.widget.QMUITopBarLayout
+        android:id="@+id/ui_topbar"
+        style="@style/commonTopbarStyle"
+        app:qmui_topbar_bg_color="@color/maintenance_calendar_grey"/>
+
+    <com.haibin.calendarview.CalendarLayout
+        android:id="@+id/calendarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        app:calendar_content_view_id="@+id/ll_calendar_linear">
+
+        <com.haibin.calendarview.CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/maintenance_calendar_grey"
+            app:calendar_padding="5dp"
+            app:current_day_text_color="@color/maintenance_current_day_text_color"
+            app:current_month_text_color="@color/maintenance_current_month_text_color"
+            app:day_text_size="12sp"
+            app:month_view="com.facilityone.wireless.maintenance.widget.CustomMonthView"
+            app:month_view_show_mode="mode_fix"
+            app:other_month_text_color="@color/maintenance_other_month_text_color"
+            app:select_mode="single_mode"
+            app:selected_text_color="@color/maintenance_selected_text_color"
+            app:selected_theme_color="@color/maintenance_selected_theme_color"
+            app:week_background="@color/maintenance_calendar_grey"
+            app:week_start_with="sun"
+            app:week_text_color="@color/maintenance_week_text_color"
+            app:week_text_size="10sp"
+            app:week_view="com.facilityone.wireless.maintenance.widget.CustomWeekView"/>
+
+        <com.facilityone.wireless.basiclib.widget.CalendarLinearLayout
+            android:id="@+id/ll_calendar_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+        </com.facilityone.wireless.basiclib.widget.CalendarLinearLayout>
+
+    </com.haibin.calendarview.CalendarLayout>
+</LinearLayout>

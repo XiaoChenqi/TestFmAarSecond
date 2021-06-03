@@ -15,7 +15,9 @@
             <option value="$PROJECT_DIR$/basiclib" />
             <option value="$PROJECT_DIR$/basicres" />
             <option value="$PROJECT_DIR$/demandcomponent" />
+            <option value="$PROJECT_DIR$/maintenancecomponent" />
             <option value="$PROJECT_DIR$/patrolcomponent" />
+            <option value="$PROJECT_DIR$/workordercomponent" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

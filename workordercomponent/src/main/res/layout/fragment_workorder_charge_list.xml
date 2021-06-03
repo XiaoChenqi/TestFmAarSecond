@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.qmuiteam.qmui.widget.QMUITopBarLayout
+        android:id="@+id/ui_topbar"
+        style="@style/commonTopbarStyle"/>
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlEnablePreviewInEditMode="true"
+        app:srlEnablePureScrollMode="true">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:id="@+id/ll_charge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/charge_tool_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_13"
+                    android:background="@color/white"
+                    android:padding="@dimen/dp_16">
+
+                    <TextView
+                        style="@style/h3_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/workorder_tool_fee"/>
+
+                    <TextView
+                        android:id="@+id/tool_charge_cost_tv"
+                        style="@style/h3_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/workorder_red"
+                        android:paddingLeft="@dimen/dp_10"
+                        android:paddingRight="@dimen/dp_10"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toLeftOf="@+id/charge_tool_cb"/>
+
+                    <CheckBox
+                        android:id="@+id/charge_tool_cb"
+                        android:layout_width="@dimen/dp_16"
+                        android:layout_height="@dimen/dp_16"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/check_box_selector"
+                        android:button="@null"
+                        android:clickable="false"/>
+                </RelativeLayout>
+
+                <View
+                    style="@style/secant_line_style"/>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never"/>
+
+                <RelativeLayout
+                    android:id="@+id/charge_cost_total_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <TextView
+                        style="@style/h3_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/charge_total_cost_tv"
+                        android:layout_toLeftOf="@+id/charge_total_cost_tv"
+                        android:text="@string/workorder_total_cost"/>
+
+                    <TextView
+                        android:id="@+id/charge_total_cost_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:gravity="right|center_vertical"
+                        android:paddingBottom="@dimen/dp_18"
+                        android:paddingRight="@dimen/dp_16"
+                        android:paddingTop="@dimen/dp_18"
+                        android:textColor="@color/workorder_red"
+                        android:textSize="@dimen/sp_24"/>
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/charge_cost_total_view"
+                    style="@style/secant_line_style"/>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

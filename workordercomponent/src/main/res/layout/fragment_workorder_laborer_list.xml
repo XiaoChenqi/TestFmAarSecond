@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.qmuiteam.qmui.widget.QMUITopBarLayout
+        android:id="@+id/ui_topbar"
+        style="@style/commonTopbarStyle"/>
+
+    <com.facilityone.wireless.a.arch.widget.SearchBox
+        android:id="@+id/search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/workorder_filter_conditions_hint"
+        app:sb_clrBackGround="@drawable/icon_delete_et_selector"/>
+
+    <View
+        android:id="@+id/top_view_line"
+        style="@style/secant_line_style"/>
+
+    <LinearLayout
+        android:id="@+id/person_search_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16"
+        android:paddingTop="@dimen/dp_10">
+
+
+        <TextView
+            style="@style/h3_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/workorder_person"/>
+
+        <TextView
+            style="@style/h5_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/workorder_select_orders_tip"/>
+
+
+        <TextView
+            style="@style/h5_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dp_2"
+            android:text="@string/workorder_person_on_guard"/>
+
+        <TextView
+            style="@style/h5_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_16"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:gravity="center"
+            android:text="@string/workorder_select_tip"/>
+    </LinearLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlEnablePureScrollMode="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none"/>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

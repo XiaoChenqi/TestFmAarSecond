@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">maintenancecomponent</string>
+
+    <!--计划性维护详情-->
+    <string name="maintenance_detail_title">计划性维护详情</string>
+    <!--月到-->
+    <string name="maintenance_task_month_to">月~</string>
+    <!--次年-->
+    <string name="maintenance_task_next">次年</string>
+    <!--月-->
+    <string name="maintenance_month">月</string>
+    <!--是-->
+    <string name="maintenance_yes">是</string>
+    <!--否-->
+    <string name="maintenance_no">否</string>
+    <!--天-->
+    <string name="maintenance_day">天</string>
+    <!--维护内容-->
+    <string name="maintenance_content">维护内容</string>
+    <!--维护内容-->
+    <string name="maintenance_content_tip">维护内容：</string>
+    <!--对象-->
+    <string name="maintenance_object_tip">对象</string>
+    <!--维护工单-->
+    <string name="maintenance_work_order_tip">维护工单</string>
+    <!--当月任务-->
+    <string name="maintenance_cur_month_task_title">当月任务</string>
+    <!--当天任务-->
+    <string name="maintenance_cur_day_task_title">当天任务</string>
+    <!--已完成-->
+    <string name="maintenance_finish">已完成</string>
+    <!--遗漏-->
+    <string name="maintenance_leak">遗漏</string>
+    <!--未开始-->
+    <string name="maintenance_undo">未开始</string>
+    <!--处理中-->
+    <string name="maintenance_doing">处理中</string>
+    <!--维护设备-->
+    <string name="maintenance_device">维护设备</string>
+    <!--空间位置-->
+    <string name="maintenance_location">空间位置</string>
+    <!--无维护工单-->
+    <string name="maintenance_no_workorder">无维护工单</string>
+    <!--获取计划性维护详情信息失败，请检查网络-->
+    <string name="maintenance_data_error">获取计划性维护详情信息失败，请检查网络</string>
+    <!--操作失败-->
+    <string name="maintenance_operate_fail">操作失败</string>
+    <!--个任务-->
+    <string name="maintenance_ge_task">个任务</string>
+    <!--再按一次退出-->
+    <string name="maintenance_press_exit_again">再按一次退出</string>
+    <!--工单-->
+    <string name="maintenance_order">工单</string>
+    <!--维护时间-->
+    <string name="maintenance_date_tip">维护时间：</string>
+    <!--物资名称-->
+    <string name="maintenance_material_name">物资名称：</string>
+    <!--工具名称-->
+    <string name="maintenance_tool_name">工具名称：</string>
+    <!--规格型号-->
+    <string name="maintenance_model">型号：</string>
+    <!--品牌-->
+    <string name="maintenance_brand">品牌：</string>
+    <!--数量-->
+    <string name="maintenance_amount">数量：</string>
+    <!--设备编码-->
+    <string name="maintenance_device_code">设备编码：</string>
+    <!--设备名称-->
+    <string name="maintenance_device_name">设备名称：</string>
+    <!--设备分类-->
+    <string name="maintenance_device_type">设备分类：</string>
+    <!--设备位置-->
+    <string name="maintenance_device_location">设备位置：</string>
+    <!--工作组-->
+    <string name="maintenance_group">工作组：</string>
+    <!--申请人-->
+    <string name="maintenance_person">申请人：</string>
+    <!--位置-->
+    <string name="maintenance_location_tip">位置：</string>
+    <!--基本信息-->
+    <string name="maintenance_basic_info">基本信息</string>
+    <!--维保名称-->
+    <string name="maintenance_detail_name">维保名称：</string>
+    <!--影响-->
+    <string name="maintenance_affect">影响：</string>
+    <!--周期-->
+    <string name="maintenance_period">周期：</string>
+    <!--首次维护时间-->
+    <string name="maintenance_first_time">首次维护时间：</string>
+    <!--下次维护时间-->
+    <string name="maintenance_next_time">下次维护时间：</string>
+    <!--维保周期-->
+    <string name="maintenance_start_end_time">维保周期：</string>
+    <!--耗时-->
+    <string name="maintenance_need_time">耗时：</string>
+    <!--自动生成工单-->
+    <string name="maintenance_auto_generate">自动生成工单：</string>
+    <!--提前天数-->
+    <string name="maintenance_ahead_day">提前天数：</string>
+    <!--步骤-->
+    <string name="maintenance_step">步骤</string>
+    <!--物料-->
+    <string name="maintenance_material">物料</string>
+    <!--工具-->
+    <string name="maintenance_tool">工具</string>
+    <!--附件-->
+    <string name="maintenance_attachment">附件</string>
+</resources>

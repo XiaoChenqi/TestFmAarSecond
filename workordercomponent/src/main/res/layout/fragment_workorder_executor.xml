@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.qmuiteam.qmui.widget.QMUITopBarLayout
+        android:id="@+id/ui_topbar"
+        style="@style/commonTopbarStyle"/>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlEnablePureScrollMode="true">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--<TextView-->
+                    <!--style="@style/content_title_style1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:text="@string/workorder_person_arrive_time"/>-->
+
+                <com.facilityone.wireless.a.arch.widget.CustomContentItemView
+                    android:id="@+id/civ_start_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/list_item_bg"
+                    app:fm_content_item_show_line="true"
+                    app:fm_content_item_show_red="false"
+                    app:fm_content_item_show_tip="true"
+                    app:fm_content_item_show_tip_icon="true"
+                    app:fm_content_item_title="@string/workorder_person_arrive_time"
+                    app:fm_content_item_et_hint="@string/workorder_laborer_attendance_time_placeholder"/>
+
+                <!--<TextView-->
+                    <!--style="@style/content_title_style1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:text="@string/workorder_person_finish_time"/>-->
+
+                <com.facilityone.wireless.a.arch.widget.CustomContentItemView
+                    android:id="@+id/civ_end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/list_item_bg"
+                    app:fm_content_item_show_line="true"
+                    app:fm_content_item_show_red="false"
+                    app:fm_content_item_show_tip="true"
+                    app:fm_content_item_show_tip_icon="true"
+                    app:fm_content_item_title="@string/workorder_person_finish_time"
+                    app:fm_content_item_et_hint="@string/workorder_laborer_complete_time_placeholder"/>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+</LinearLayout>

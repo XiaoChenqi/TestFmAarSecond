@@ -74,6 +74,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
     api project(':demandcomponent')
+    api project(':maintenancecomponent')
+    api project(':workordercomponent')
     //api project(':arch')
 
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="workorder_red">#ff3a30</color>
+    <color name="workorder_green">@color/colorPrimary</color>
+    <color name="workorder_orange">#ff9900</color>
+    <color name="workorder_blue">#10aeff</color>
+
+
+    <color name="reserve_record_tag_status_orange">#ff9900</color>
+    <color name="reserve_record_tag_status_blue">#10aeff</color>
+    <color name="reserve_record_tag_status_red">#ff6666</color>
+    <color name="reserve_record_tag_status_grey">#a6a6a6</color>
+
+</resources>

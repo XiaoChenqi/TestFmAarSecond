@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ll_root"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/list_item_bg"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/person_search_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_16">
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/h3_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxEms="10"/>
+
+        <TextView
+            android:id="@+id/tv_undo_number"
+            style="@style/h5_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_status"
+            style="@style/h5_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <CheckBox
+            android:id="@+id/cb_check"
+            android:layout_width="@dimen/dp_16"
+            android:layout_height="@dimen/dp_16"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:background="@drawable/check_box_selector"
+            android:button="@null"
+            android:clickable="false"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_dash"
+        style="@style/dash_line_style"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/view_line"
+        style="@style/secant_line_style"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

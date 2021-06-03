@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/app_bg"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        style="@style/contentTitleLayoutStyle"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <TextView
+            style="@style/demandWorkTitleIconStyle"/>
+
+        <TextView
+            android:id="@+id/maintenance_item_title"
+            style="@style/h3_text_style"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_14"
+            android:layout_weight="1"
+            android:text="@string/maintenance_cur_month_task_title"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/secant_line_style"/>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">maintenancecomponent</string>
+
+    <!--计划性维护详情-->
+    <string name="maintenance_detail_title">Maintenance Detail</string>
+    <!--月到-->
+    <string name="maintenance_task_month_to">&#160;~&#160;</string>
+    <!--次年-->
+    <string name="maintenance_task_next">&#160;next&#160;</string>
+    <!--月-->
+    <string name="maintenance_month">&#160;</string>
+    <!--是-->
+    <string name="maintenance_yes">Yes</string>
+    <!--否-->
+    <string name="maintenance_no">NO</string>
+    <!--天-->
+    <string name="maintenance_day"> day</string>
+    <!--维护内容-->
+    <string name="maintenance_content">Content</string>
+    <!--维护内容-->
+    <string name="maintenance_content_tip">Content:</string>
+    <!--对象-->
+    <string name="maintenance_object_tip">Target</string>
+    <!--维护工单-->
+    <string name="maintenance_work_order_tip">Work Order</string>
+    <!--当月任务-->
+    <string name="maintenance_cur_month_task_title">Current Month Tasks</string>
+    <!--当天任务-->
+    <string name="maintenance_cur_day_task_title">Current Day Tasks</string>
+    <!--已完成-->
+    <string name="maintenance_finish">Completed</string>
+    <!--遗漏-->
+    <string name="maintenance_leak">Missed</string>
+    <!--未开始-->
+    <string name="maintenance_undo">Undo</string>
+    <!--处理中-->
+    <string name="maintenance_doing">Processing</string>
+    <!--维护设备-->
+    <string name="maintenance_device">Maintenance Equipment</string>
+    <!--空间位置-->
+    <string name="maintenance_location">Location</string>
+    <!--无维护工单-->
+    <string name="maintenance_no_workorder">No Maintenance Work Order</string>
+    <!--获取计划性维护详情信息失败，请检查网络-->
+    <string name="maintenance_data_error">Failed to obtain scheduled maintenance details. Please check the network</string>
+    <!--操作失败-->
+    <string name="maintenance_operate_fail">Operate failed</string>
+    <!--个任务-->
+    <string name="maintenance_ge_task">&#160;tasks</string>
+    <!--再按一次退出-->
+    <string name="maintenance_press_exit_again">Press exit again</string>
+    <!--工单-->
+    <string name="maintenance_order">Order</string>
+    <!--维护时间-->
+    <string name="maintenance_date_tip">Maintenance Date:</string>
+    <!--物资名称-->
+    <string name="maintenance_material_name">Name:</string>
+    <!--工具名称-->
+    <string name="maintenance_tool_name">Name:</string>
+    <!--规格型号-->
+    <string name="maintenance_model">Model:</string>
+    <!--品牌-->
+    <string name="maintenance_brand">Brand:</string>
+    <!--数量-->
+    <string name="maintenance_amount">Quantity:</string>
+    <!--设备编码-->
+    <string name="maintenance_device_code">Code:</string>
+    <!--设备名称-->
+    <string name="maintenance_device_name">Name:</string>
+    <!--设备分类-->
+    <string name="maintenance_device_type">Category:</string>
+    <!--设备位置-->
+    <string name="maintenance_device_location">Location：</string>
+    <!--工作组-->
+    <string name="maintenance_group">Team:</string>
+    <!--申请人-->
+    <string name="maintenance_person">Applicant:</string>
+    <!--位置-->
+    <string name="maintenance_location_tip">Location:</string>
+    <!--基本信息-->
+    <string name="maintenance_basic_info">Basic info</string>
+    <!--维保名称-->
+    <string name="maintenance_detail_name">Name:</string>
+    <!--影响-->
+    <string name="maintenance_affect">Affect:</string>
+    <!--周期-->
+    <string name="maintenance_period">Frequency:</string>
+    <!--首次维护时间-->
+    <string name="maintenance_first_time">First Maintenance Date:</string>
+    <!--下次维护时间-->
+    <string name="maintenance_next_time">Next Maintenance Date:</string>
+    <!--维保周期-->
+    <string name="maintenance_start_end_time">Duration:</string>
+    <!--耗时-->
+    <string name="maintenance_need_time">Estimated Time:</string>
+    <!--自动生成工单-->
+    <string name="maintenance_auto_generate">Auto Create:</string>
+    <!--提前天数-->
+    <string name="maintenance_ahead_day">Ahead:</string>
+    <!--步骤-->
+    <string name="maintenance_step">Step</string>
+    <!--物料-->
+    <string name="maintenance_material">Material</string>
+    <!--工具-->
+    <string name="maintenance_tool">Tool</string>
+    <!--附件-->
+    <string name="maintenance_attachment">Attachment</string>
+
+</resources>

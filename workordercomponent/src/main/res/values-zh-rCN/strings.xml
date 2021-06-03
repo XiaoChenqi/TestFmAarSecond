@@ -1,0 +1,476 @@
+<resources>
+    <string name="app_name">workordercomponent</string>
+    <!--工单-->
+    <string name="workorder_name_title">工单</string>
+    <!--审批申请-->
+    <string name="workorder_approval_title">审批申请</string>
+    <!--提交-->
+    <string name="workorder_submit">提交</string>
+    <!--无执行人-->
+    <string name="work_order_person_empty">无执行人</string>
+    <!--暂无执行人-->
+    <string name="work_order_no_person">暂无执行人</string>
+    <!--删除-->
+    <string name="workorder_delete">删除</string>
+    <!--提示-->
+    <string name="workorder_tip_title">提示</string>
+    <!--提示-->
+    <string name="workorder_tip_title_t">提示</string>
+    <!--是否删除该审批人-->
+    <string name="workorder_delete_laborers">是否删除该审批人</string>
+    <!--修改费用-->
+    <string name="workorder_edit_cost">修改收费项</string>
+    <!--添加费用-->
+    <string name="workorder_add_cost">添加收费项</string>
+    <!--保存-->
+    <string name="workorder_save">保存</string>
+    <!--请输入名称-->
+    <string name="workorder_input_name_hint">请输入名称</string>
+    <!--请输入费用-->
+    <string name="workorder_input_amount_hint">请输入费用</string>
+    <!--工具费用-->
+    <string name="workorder_tool_fee">工具费用</string>
+    <!--收费明细-->
+    <string name="workorder_charge_title">收费项</string>
+    <!--添加-->
+    <string name="workorder_add_menu">添加</string>
+    <!--确定-->
+    <string name="workorder_confirm">确定</string>
+    <!--是否确定删除该项?-->
+    <string name="workorder_delete_item">是否删除该收费项</string>
+    <!--是否确定删除该位置-->
+    <string name="workorder_delete_position">是否删除该空间位置</string>
+    <!--是否确定删除该工具-->
+    <string name="workorder_delete_tool_tip_content">是否删除该工具</string>
+    <!--创建工单-->
+    <string name="workorder_create">创建工单</string>
+    <!--报障-->
+    <string name="workorder_report_fault">报障</string>
+    <!--自检-->
+    <string name="workorder_report_self">自检</string>
+    <!--是否确定删除该设备-->
+    <string name="workorder_delete_device">是否删除该设备?</string>
+    <!--纠正性维护-->
+    <string name="workorder_report_correct">纠正性维护</string>
+    <!--请选择服务类型-->
+    <string name="workorder_stype_hint">请选择服务类型</string>
+    <!--请输入联系电话-->
+    <string name="workorder_phone_hint">请输入联系电话</string>
+    <!--请选择部门-->
+    <string name="workorder_department_hint">请选择部门</string>
+    <!--请选择优先级-->
+    <string name="workorder_priority_hint">请选择优先级</string>
+    <!--请选择位置-->
+    <string name="workorder_position_select_hint">请先选择位置</string>
+    <!--请选择空间位置-->
+    <string name="workorder_position_select_hint_tip">请选择空间位置</string>
+    <!--请选择工单类型-->
+    <string name="workorder_type_hint">请选择工单类型</string>
+    <!--选择照片-->
+    <string name="workorder_select_photo_title">选择照片</string>
+    <!--拍照-->
+    <string name="workorder_select_camera">拍照</string>
+    <!--从相册中选择-->
+    <string name="workorder_select_photo">从相册选择</string>
+    <!--取消-->
+    <string name="workorder_cancel">取消</string>
+    <!--是否确定删除该图片-->
+    <string name="workorder_delete_picture">是否确定删除该图片</string>
+    <!--你最多可以选择%d张图片-->
+    <string name="workorder_select_photo_at_most">你最多可以选择%d张图片</string>
+    <!--请勿重复添加-->
+    <string name="workorder_add_again">请勿重复添加</string>
+    <!--位置重复添加-->
+    <string name="workorder_position_add_again">该空间位置已存在</string>
+    <!--添加设备-->
+    <string name="workorder_add_device">添加设备</string>
+    <!--请选择设备-->
+    <string name="workorder_select_device_hint">请选择设备</string>
+    <!--关联设备-->
+    <string name="workorder_associated_equipment">关联设备</string>
+    <!--刷新列表失败-->
+    <string name="workorder_refresh_list_failed">刷新列表失败</string>
+    <!--派工-->
+    <string name="workorder_arrange_order">派工</string>
+    <!--时间比对有误-->
+    <string name="workorder_time_error">时间比对有误</string>
+    <!--是否删除该执行人-->
+    <string name="workorder_delete_executor">是否删除该执行人</string>
+    <!--%s工作时间-->
+    <string name="workorder_work_date">工作时间</string>
+    <!--非法时间-->
+    <string name="workorder_illegal_time">请选择实际完成时间</string>
+    <!--历史记录-->
+    <string name="workorder_history_recorder">历史记录</string>
+    <!--工单详情-->
+    <string name="workorder_detail_title">工单详情</string>
+    <!--创建于-->
+    <string name="workorder_work_detail_basic_create">%1$s 创建于 %2$s</string>
+    <!--获取数据失败-->
+    <string name="workorder_get_data_error">获取数据失败</string>
+    <!--请先继续工作-->
+    <string name="workorder_continue_tip">请先继续工作</string>
+    <!--暂无权限-->
+    <string name="workorder_no_permission">暂无权限</string>
+    <!--填写工作内容-->
+    <string name="workorder_work_content_title">填写工作内容</string>
+    <!--请填写工作内容或添加照片-->
+    <string name="workorder_work_content_tip">请填写工作内容或添加照片</string>
+    <!--选择人员-->
+    <string name="workorder_person_search_title">选择人员</string>
+    <!--暂未选择-->
+    <string name="workorder_no_select">暂未选择</string>
+    <!--待处理工单-->
+    <string name="workorder_undo_home_title">待处理工单</string>
+    <!--待派工工单-->
+    <string name="workorder_arrange_work_order_title">待派工工单</string>
+    <!--待审批工单-->
+    <string name="workorder_approval_work_order_title">待审批工单</string>
+    <!--待存档工单-->
+    <string name="workorder_archive_home_title">待存档工单</string>
+    <!--无更多数据-->
+    <string name="workorer_no_more_data">无更多数据</string>
+    <!--暂无功能-->
+    <string name="workorder_no_function">暂无功能</string>
+    <!--关联缴费单-->
+    <string name="workorder_related_payment">关联缴费单</string>
+    <!--暂无数据-->
+    <string name="workorder_no_data">暂无数据</string>
+    <!--我的报障-->
+    <string name="workorder_my_report_fault">我的报障</string>
+    <!--工单查询-->
+    <string name="workorder_query">工单查询</string>
+    <!--不限-->
+    <string name="workorder_unlimited">不限</string>
+    <!--年-->
+    <string name="workorder_year">年</string>
+    <!--月-->
+    <string name="workorder_month">月</string>
+    <!--时间选择有误-->
+    <string name="workorder_select_time_error">时间选择有误</string>
+    <!--物料-->
+    <string name="workorder_material">物料</string>
+    <!--预定-->
+    <string name="workorder_book_tip">预定</string>
+    <!--编辑空间位置-->
+    <string name="workorder_edit_position_title">修改空间位置</string>
+    <!--添加空间位置-->
+    <string name="workorder_position_add_title">添加空间位置</string>
+    <!--空间位置-->
+    <string name="workorder_location">空间位置</string>
+    <!--空间位置-->
+    <string name="workorder_location_tip">空间位置：</string>
+    <!--维护步骤-->
+    <string name="workorder_menu_step">维护步骤</string>
+    <!--已完成步骤无法再操作，谢谢。-->
+    <string name="workorder_steps_completed_notice_tip">已完成步骤无法再操作，谢谢</string>
+    <!--步骤-->
+    <string name="workorder_step">步骤</string>
+    <!--步骤-->
+    <string name="workorder_step_tip">步骤：</string>
+    <!--请确认是否完成-->
+    <string name="workorder_is_completed">请确认是否完成</string>
+    <!--添加工具-->
+    <string name="workorder_add_tool">添加工具</string>
+    <!--修改工具-->
+    <string name="workorder_modify_tool">修改工具</string>
+    <!--请输入数量-->
+    <string name="workorder_number_hint">请输入数量</string>
+    <!--请输入单位-->
+    <string name="workorder_unit_hint">请输入单位</string>
+    <!--工具-->
+    <string name="workorder_tool">工具</string>
+    <!--工作时间-->
+    <string name="workorder_work_time">工作时间：</string>
+    <!--在岗-->
+    <string name="workorder_person_on_guard">在岗</string>
+    <!--离开-->
+    <string name="workorder_person_off_guard">离开</string>
+    <!--未完成-->
+    <string name="workorder_unfinish">未完成</string>
+    <!--已完成-->
+    <string name="workorder_finished">已完成</string>
+    <!--审批说明-->
+    <string name="workorder_approval_parameter">审批说明</string>
+    <!--操作成功-->
+    <string name="workorder_operate_success">操作成功</string>
+    <!--操作失败-->
+    <string name="workorder_operate_fail">操作失败</string>
+    <!--该设备已经存在-->
+    <string name="workorder_device_exist">该设备已存在</string>
+    <!--工单提交成功-->
+    <string name="workorder_submit_success">工单提交成功</string>
+    <string name="workorder_submit_failed">工单提交失败</string>
+    <!--二维码不正确，请确认-->
+    <string name="workorder_qrcode_no_match">二维码不正确，请确认</string>
+    <!--终止-->
+    <string name="workorder_stop">终止</string>
+    <!--接单-->
+    <string name="workorder_accept_order">接单</string>
+    <!--退单-->
+    <string name="workorder_back_order">退单</string>
+    <!--处理完成-->
+    <string name="workorder_finish">处理完成</string>
+    <!--暂停-->
+    <string name="workorder_stop_order">暂停</string>
+    <!--验证-->
+    <string name="workorder_verify_tip">验证</string>
+    <!--存档-->
+    <string name="workorder_archive">存档</string>
+    <!--审批-->
+    <string name="workorder_approval_order">审批</string>
+    <!--物料预定单信息不完整，是否使用默认值？-->
+    <string name="workorder_none_any_people">物料预定单信息不完整，是否使用默认值</string>
+    <!--存在其他执行人尚未接单，无法终止工单-->
+    <string name="workorder_terminal_error">存在其他执行人尚未接单，无法终止工单</string>
+    <!--你还有%1$d个设备未完成维保，是否提交，请确认-->
+    <string name="workorder_device_un_completed_tip">你还有%1$d个设备未完成维保，是否提交，请确认</string>
+    <!--存在其他执行人尚未接单，无法完成工单-->
+    <string name="workorder_finish_error">存在其他执行人尚未接单，无法完成工单</string>
+    <!--终止工单-->
+    <string name="workorder_terminal">终止工单</string>
+    <!--请输入终止原因-->
+    <string name="workorder_hint_reason_stop">请输入终止原因...</string>
+    <!--审批工单-->
+    <string name="workorder_approval_tip">审批工单</string>
+    <!--请输入通过或不通过描述-->
+    <string name="wrokorder_hint_reason_approval">请输入审批意见...</string>
+    <!--拒绝-->
+    <string name="workorder_reject">拒绝</string>
+    <!--通过-->
+    <string name="workorder_pass">通过</string>
+    <!--验证工单-->
+    <string name="workorder_tip_verify">验证工单</string>
+    <!--请输入描述-->
+    <string name="workorder_desc">请输入描述...</string>
+    <!--暂停工单-->
+    <string name="workorder_pause_tip">暂停工单</string>
+    <!--请输入暂停原因-->
+    <string name="workorder_pause_reason_hint">请输入暂停原因...</string>
+    <!--如果选择继续，那么工单会暂停，需要继续完成；如果选择不继续，那么工单需要重新派单。-->
+    <string name="workorder_pause_tip_a">如果选择继续，那么工单会暂停，需要继续完成；如果选择不继续，那么工单需要重新派单</string>
+    <!--继续工作-->
+    <string name="workorder_continue_order">继续工作</string>
+    <!--不继续工作-->
+    <string name="workorder_over_order">不继续工作</string>
+    <!--请输入退单原因-->
+    <string name="workorder_back_reason_hint">请输入退单原因...</string>
+    <!--再按一次退出-->
+    <string name="workorder_press_exit_again">再按一次退出</string>
+    <!--设备编码-->
+    <string name="workorder_device_code">设备编码：</string>
+    <!--设备编码-->
+    <string name="workorder_device_code_title">设备编码</string>
+    <!--设备名称-->
+    <string name="workorder_device_name">设备名称：</string>
+    <!--设备名称-->
+    <string name="workorder_device_name_title">设备名称</string>
+    <!--设备位置-->
+    <string name="workorder_device_location">设备位置：</string>
+    <!--设备编号-->
+    <string name="workorder_code_device">设备编码：</string>
+    <!--现场描述-->
+    <string name="workorder_device_desc">现场描述：</string>
+    <!--现场描述-->
+    <string name="workorder_device_desc_title">现场描述</string>
+    <!--处理方式-->
+    <string name="workorder_device_repair">处理方式：</string>
+    <!--处理方式-->
+    <string name="workorder_device_repair_title">处理方式</string>
+    <!--负责人-->
+    <string name="workorder_responsible">负责人</string>
+    <!--预定单号-->
+    <string name="workorder_book_order_code">预定单号：</string>
+    <!--预定人-->
+    <string name="workorder_book_person">预定人：</string>
+    <!--预定时间-->
+    <string name="workorder_book_time">预定日期：</string>
+    <!--仓库名称-->
+    <string name="workorder_storage_name">仓库名称：</string>
+    <!--关联工单-->
+    <string name="workorder_relate_order">关联工单：</string>
+    <!--理由-->
+    <string name="workorder_reason">理由：</string>
+    <!--型号-->
+    <string name="workorder_model">型号：</string>
+    <!--型号-->
+    <string name="workorder_model_title">型号</string>
+    <!--审批事由-->
+    <string name="workorder_apply_reason">申请事由</string>
+    <!--请输入申请事由-->
+    <string name="workorder_hint_reason_apply_approval">请输入申请事由...</string>
+    <!--审批人-->
+    <string name="workorder_approval_person">审批人</string>
+    <!--收费项-->
+    <string name="workorder_charge">收费项</string>
+    <!--请输入收费项名称-->
+    <string name="workorder_charge_name_hint">请输入名称</string>
+    <!--费用-->
+    <string name="workorder_charge_amount">费用</string>
+    <!--总计-->
+    <string name="workorder_total_cost">总计：</string>
+    <!--基本信息-->
+    <string name="workorder_basic_info">基本信息</string>
+    <!--申请人-->
+    <string name="workorder_applicant">申请人</string>
+    <!--联系电话-->
+    <string name="workorder_phone">联系电话</string>
+    <!--部门-->
+    <string name="workorder_org">部门</string>
+    <!--部门-->
+    <string name="workorder_org_tip">部门：</string>
+    <!--位置-->
+    <string name="workorder_position">位置</string>
+    <!--位置-->
+    <string name="workorder_position_tip">位置：</string>
+    <!--工单类型-->
+    <string name="workorder_type">工单类型</string>
+    <!--服务类型-->
+    <string name="workorder_stype">服务类型</string>
+    <!--服务类型-->
+    <string name="workorder_stype_tip">服务类型：</string>
+    <!--优先级-->
+    <string name="workorder_priority">优先级</string>
+    <!--优先级-->
+    <string name="workorder_priority_tip">优先级：</string>
+    <!--故障设备-->
+    <string name="workorder_fault_device">故障设备</string>
+    <!--需求描述-->
+    <string name="workorder_describe_tip">问题描述</string>
+    <!--请输入现场描述-->
+    <string name="workorder_describle_hint">请输入现场描述...</string>
+    <!--请输入处理方式-->
+    <string name="workorder_repair_type_hint">请输入处理方式...</string>
+    <!--预计工作时间-->
+    <string name="workorder_time">预计工作时间</string>
+    <!--开始时间选择-->
+    <string name="workorder_arrive_time">预计开始时间</string>
+    <!--结束时间选择-->
+    <string name="workorder_end_time">预计结束时间</string>
+    <!--耗时(小时)-->
+    <string name="workorder_use_time">耗时(小时)</string>
+    <!--执行人(选中的为负责人)-->
+    <string name="workorder_person_tip">执行人(选中的是负责人)</string>
+    <!--派发工作内容-->
+    <string name="workorder_approval_send_wo_content">派发工作内容</string>
+    <!--派发工作内容-->
+    <string name="workorder_approval_send_wo_content_tip">派发工作内容：</string>
+    <!--请输入工作内容-->
+    <string name="workorder_send_work_content_hint">请输入工作内容...</string>
+    <!--请输入工作内容-->
+    <string name="workorder_send_work_content_hint_t">请输入工作内容...</string>
+    <!--实际到场时间-->
+    <string name="workorder_person_arrive_time">实际到场时间</string>
+    <!--日期选择-->
+    <string name="workorder_person_date_select">日期选择</string>
+    <!--实际完成时间-->
+    <string name="workorder_person_finish_time">实际完成时间</string>
+    <!--查看全部-->
+    <string name="workorder_look_all">查看全部</string>
+    <!--预估时间-->
+    <string name="workorder_estimate_time">预估时间：</string>
+    <!--问题描述-->
+    <string name="workorder_describe_tip_x">问题描述：</string>
+    <!--审批内容-->
+    <string name="workorder_approval_content">审批内容</string>
+    <!--执行人-->
+    <string name="workorder_person">执行人</string>
+    <!--缴费单列表-->
+    <string name="workorder_payments">缴费单列表</string>
+    <!--客户签字-->
+    <string name="workorder_hand_write_tip">客户签字</string>
+    <!--已签-->
+    <string name="workorder_hand_ok_tip">已签</string>
+    <!--未签-->
+    <string name="workorder_hand_no_sign_tip">未签</string>
+    <!--主管签字-->
+    <string name="workorder_hand_manager_tip">主管签字</string>
+    <!--附件-->
+    <string name="workorder_attachment">附件</string>
+    <!--填写处理内容-->
+    <string name="workorder_processing_content">填写处理内容</string>
+    <!--请输入过滤条件-->
+    <string name="workorder_filter_conditions_hint">请输入过滤条件</string>
+    <!--处理中工单数-->
+    <string name="workorder_select_orders_tip">处理中工单数</string>
+    <!--选择-->
+    <string name="workorder_select_tip">选择</string>
+    <!--立即查看-->
+    <string name="workorder_look_tip">立即查看</string>
+    <!--工单号-->
+    <string name="workorder_code">工单号</string>
+    <string name="workorder_query_desc">工单描述</string>
+    <!--清除-->
+    <string name="workorder_clear">清除</string>
+    <!--请输入工单号-->
+    <string name="workorder_code_hint">请输入工单号</string>
+    <string name="workorder_query_desc_hint">请输入工单描述</string>
+    <!--创建时间-->
+    <string name="workorder_create_time">创建时间</string>
+    <!--开始时间-->
+    <string name="workorder_start_date">开始时间</string>
+    <!--结束时间-->
+    <string name="workorder_end_date">结束时间</string>
+    <!--请选择-->
+    <string name="workorder_select">请选择服务类型</string>
+    <!--工单状态-->
+    <string name="workorder_status">状态</string>
+    <!--重置-->
+    <string name="workorder_reset">重置</string>
+    <!--确定-->
+    <string name="workorder_sure">确定</string>
+    <!--工作描述-->
+    <string name="workorder_work_describe">工作描述：</string>
+    <!--工作描述-->
+    <string name="workorder_work_describe_title">工作描述</string>
+    <!--是否完成-->
+    <string name="workorder_steps_status_check_tip">是否完成</string>
+    <!--工作组-->
+    <string name="workorder_team">工作组</string>
+    <!--请输入工作描述-->
+    <string name="workorder_describe_hint">请输入工作描述...</string>
+    <!--名称-->
+    <string name="workorder_name">名称</string>
+    <!--请输入名称-->
+    <string name="workorder_name_hint">请输入名称</string>
+    <!--请输入型号-->
+    <string name="workorder_model_hint">请输入型号</string>
+    <!--数量-->
+    <string name="workorder_amount_no">数量</string>
+    <!--单位-->
+    <string name="workorder_unit">单位</string>
+    <!--费用(单价)-->
+    <string name="workorder_charge_tip_up">费用(单价)</string>
+    <!--备注-->
+    <string name="workorder_remark">备注</string>
+    <!--请输入备注-->
+    <string name="workorder_remark_hint">请输入备注...</string>
+    <!--缴费客户-->
+    <string name="workorder_customer">缴费客户：</string>
+    <!--已支付-->
+    <string name="workorder_pay">已支付</string>
+    <!--请选择到场时间-->
+    <string name="workorder_laborer_attendance_time_placeholder">请选择到场时间</string>
+    <!--请选择完成时间-->
+    <string name="workorder_laborer_complete_time_placeholder">请选择完成时间</string>
+    <!--实际到场时间不能晚于实际完成时间-->
+    <string name="workorder_laborer_attendance_time_alert">实际到场时间不能晚于实际完成时间</string>
+    <!--实际完成时间不能早于实际到场时间-->
+    <string name="workorder_laborer_complete_time_alert">实际完成时间不能早于实际到场时间</string>
+    <!--请选择开始时间-->
+    <string name="workorder_select_start_date_hint">请选择开始时间</string>
+    <!--请选择结束时间-->
+    <string name="workorder_select_end_date_hint">请选择结束时间</string>
+    <!--请输入耗时时间-->
+    <string name="workorder_placeholder_time">请输入耗时时间</string>
+    <!--开始时间不能晚于结束时间-->
+    <string name="workorder_time_start_error">开始时间不能晚于结束时间</string>
+    <!--结束时间不能早于开始时间-->
+    <string name="workorder_time_end_error">结束时间不能早于开始时间</string>
+    <!--请至少选择一个执行人-->
+    <string name="workorder_select_laborer_tip">请至少选择一个执行人</string>
+    <!--请至少选择一个审批人-->
+    <string name="workoder_select_approver_tip">请至少选择一个审批人</string>
+    <!--该设备已经存在-->
+    <string name="workorder_equipment_exist">该设备已经存在</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <!--当月任务-->
+    <LinearLayout
+        style="@style/contentTitleLayoutStyle">
+
+        <TextView
+            style="@style/demandWorkTitleIconStyle"/>
+
+        <TextView
+            android:id="@+id/task_title_tv"
+            style="@style/h3_text_style"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_14"
+            android:layout_weight="1"
+            android:text="@string/maintenance_cur_month_task_title"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/secant_line_style"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_63"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16">
+
+        <TextView
+            android:id="@+id/maintenance_finished_tv"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_30"
+            android:layout_weight="1"
+            android:background="@drawable/maintenance_finished_tag_fill_green_background"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/maintenance_finish"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10"/>
+
+        <TextView
+            android:id="@+id/maintenance_miss_tv"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_6"
+            android:layout_weight="1"
+            android:background="@drawable/maintenance_miss_tag_fill_red_background"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/maintenance_leak"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10"/>
+
+        <TextView
+            android:id="@+id/maintenance_undo_tv"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_6"
+            android:layout_weight="1"
+            android:background="@drawable/maintenance_undo_tag_fill_blue_background"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/maintenance_undo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10"/>
+
+        <TextView
+            android:id="@+id/maintenance_doing_tv"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_6"
+            android:layout_weight="1"
+            android:background="@drawable/maintenance_doing_tag_fill_orange_background"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/maintenance_doing"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10"/>
+
+
+    </LinearLayout>
+
+    <View
+        style="@style/secant_line_style"/>
+
+</LinearLayout>

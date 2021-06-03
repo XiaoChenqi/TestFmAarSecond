@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/app_bg"
+              android:orientation="vertical">
+
+    <View
+        android:id="@+id/maintenance_object_item_space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_10"/>
+
+    <LinearLayout
+        style="@style/contentTitleLayoutStyle">
+
+        <TextView
+            style="@style/demandWorkTitleIconStyle"/>
+
+        <TextView
+            android:id="@+id/maintenance_object_item_title"
+            style="@style/h3_text_style"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_14"
+            android:layout_weight="1"
+            android:text="@string/maintenance_device"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/secant_line_style"/>
+
+</LinearLayout>

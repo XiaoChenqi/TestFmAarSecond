@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.qmuiteam.qmui.widget.QMUITopBarLayout
+        android:id="@+id/ui_topbar"
+        style="@style/commonTopbarStyle"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srlEnablePureScrollMode="true">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/content_title_style1"
+                        android:layout_width="match_parent"
+                        android:text="@string/workorder_time"/>
+
+                    <com.facilityone.wireless.a.arch.widget.CustomContentItemView
+                        android:id="@+id/civ_start_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/list_item_bg"
+                        app:fm_content_item_show_line="false"
+                        app:fm_content_item_show_red="false"
+                        app:fm_content_item_show_tip="true"
+                        app:fm_content_item_show_tip_icon="true"
+                        app:fm_content_item_title="@string/workorder_arrive_time"
+                        app:fm_content_item_et_hint="@string/workorder_select_start_date_hint"/>
+
+                    <com.facilityone.wireless.a.arch.widget.CustomContentItemView
+                        android:id="@+id/civ_end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/list_item_bg"
+                        app:fm_content_item_show_line="false"
+                        app:fm_content_item_show_red="false"
+                        app:fm_content_item_show_tip="true"
+                        app:fm_content_item_show_tip_icon="true"
+                        app:fm_content_item_title="@string/workorder_end_time"
+                        app:fm_content_item_et_hint="@string/workorder_select_end_date_hint"/>
+
+                    <com.facilityone.wireless.a.arch.widget.CustomContentItemView
+                        android:id="@+id/civ_total_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/list_item_bg"
+                        app:fm_content_item_show_line="true"
+                        app:fm_content_item_show_red="false"
+                        app:fm_content_item_show_tip="false"
+                        app:fm_content_item_show_tip_icon="false"
+                        app:fm_content_item_title="@string/workorder_use_time"
+                        app:fm_content_item_et_hint="@string/workorder_placeholder_time"/>
+
+                    <LinearLayout
+                        android:id="@+id/workorder_dispatch_laborer_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            style="@style/content_title_style1"
+                            android:layout_width="match_parent"
+                            android:text="@string/workorder_person_tip"/>
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/recyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:overScrollMode="never"
+                            android:scrollbars="none"/>
+
+                        <View style="@style/secant_line_style"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/content_title_style1"
+                        android:layout_width="match_parent"
+                        android:text="@string/workorder_approval_send_wo_content"/>
+
+                    <com.facilityone.wireless.a.arch.widget.EditNumberView
+                        android:id="@+id/env_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:fm_edit_number_desc="@string/workorder_send_work_content_hint"/>
+
+                    <View style="@style/secant_line_style"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_14"/>
+
+                </LinearLayout>
+
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        <ImageView
+            android:id="@+id/iv_add_menu"
+            android:layout_width="@dimen/dp_55"
+            android:layout_height="@dimen/dp_55"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:background="@drawable/add_menu_selector"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

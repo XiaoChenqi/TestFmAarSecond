@@ -1,0 +1,70 @@
+//apply plugin: 'com.dd.comgradle'
+apply plugin: 'com.android.library'
+//apply plugin:'maven'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.libMinSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName_lib
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [host: "workorder"]
+            }
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    //api project(':arch')
+    api 'com.github.XiaoChenqi.TestFmAarSecond:arch:4.1'
+//    compile 'com.facility.wireless:componentservice:1.0.6'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    api 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    annotationProcessor 'com.luojilab.ddcomponent:router-anno-compiler:1.0.0'
+}
+
+//combuild {
+//    applicationName = 'com.facilityone.wireless.workorder.runalone.WorkOrderApplication'
+//    isRegisterCompoAuto = false
+//}
+
+repositories {
+    mavenCentral()
+}
+
+//uploadArchives {
+//    configuration = configurations.archives
+//    repositories {
+//        mavenDeployer {
+//            repository(url: 'http://192.168.1.146:8080/nexus/content/repositories/com.facility.wireless/') {
+//                authentication(userName: 'admin', password: 'admin123')
+//            }
+//            pom.project {
+//                version '1.0.4'
+//                artifactId 'workorder'
+//                groupId 'com.facility.wireless'
+//                packaging 'aar'
+//                description 'init version 1.0.4'
+//            }
+//        }
+//    }
+//}

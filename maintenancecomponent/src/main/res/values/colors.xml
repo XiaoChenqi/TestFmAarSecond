@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--日历视图相关颜色-->
+    <color name="maintenance_calendar_grey">#645e60</color>
+    <color name="maintenance_calendar_gradual_dark_green">#243443</color>
+    <color name="maintenance_current_day_text_color">#ff0000</color>
+    <color name="maintenance_current_month_text_color">#ffffff</color>
+    <color name="maintenance_other_month_text_color">#80ffffff</color>
+    <color name="maintenance_selected_text_color">#ffffff</color>
+    <color name="maintenance_selected_theme_color">#80ffffff</color>
+    <color name="maintenance_week_text_color">#80ffffff</color>
+    <color name="maintenance_scheme_text_color">#1cc094</color>
+
+    <!--tag相关颜色-->
+    <color name="maintenance_finished_tag_green">#5eba15</color>
+    <color name="maintenance_miss_tag_red">#ff6666</color>
+    <color name="maintenance_undo_tag_blue">#10aeff</color>
+    <color name="maintenance_doing_tag_orange">#ff9900</color>
+    <color name="maintenance_workorder_tag_purple">#9e85dd</color>
+
+    <color name="maintenance_workorder_tag_created">#159fe6</color>
+    <color name="maintenance_workorder_tag_published">#3cbc70</color>
+    <color name="maintenance_workorder_tag_process">#ff9f0e</color>
+    <color name="maintenance_workorder_tag_suspended_go">#f2548e</color>
+    <color name="maintenance_workorder_tag_terminated">#f55858</color>
+    <color name="maintenance_workorder_tag_completed">#74bc3a</color>
+    <color name="maintenance_workorder_tag_verified">#1ab394</color>
+    <color name="maintenance_workorder_tag_archived">#b2b2b2</color>
+    <color name="maintenance_workorder_tag_approval">#967cd9</color>
+    <color name="maintenance_workorder_tag_suspended_no">#f2548e</color>
+
+    <color name="maintenance_circle_green">#5eba15</color>
+</resources>

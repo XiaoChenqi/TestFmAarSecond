@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--工单状态-->
+    <string-array name="workorder_status">
+        <item>Created</item>
+        <item>Assigned</item>
+        <item>In Progress</item>
+        <item>Pause</item>
+        <item>Terminated</item>
+        <item>Completed</item>
+        <item>Verified</item>
+        <item>Archived</item>
+        <item>In Approving</item>
+        <item>Pause</item>
+        <!--<item>已暂停(不继续工作)</item>-->
+    </string-array>
+
+    <!--工作状态-->
+    <string-array name="workorder_net_get_worker_stat">
+        <item>Unreceived</item>
+        <item>Received</item>
+        <item>Returned</item>
+        <item>Submitted</item>
+    </string-array>
+    <!--工单关联缴费单状态-->
+    <string-array name="workorder_payment_stat">
+        <item>Unpaid</item>
+        <item>Paid</item>
+        <item>Invoiced</item>
+        <item>Closed</item>
+        <item>Invalid</item>
+    </string-array>
+
+    <!-- 工单预定物资记录状态 -->
+    <string-array name="inventory_reserve_record_status">
+        <item>In Approving</item>
+        <item>Passed</item>
+        <item>Cancelled</item>
+        <item>Finished</item>
+        <item>Cancel Delivery</item>
+        <item>Cancel Reservation</item>
+    </string-array>
+
+    <!-- 历史记录步骤 -->
+    <string-array name="workorder_info_history_step">
+        <item>Create</item>
+        <item>Assign</item>
+        <item>Receive</item>
+        <item>Update</item>
+        <item>Pause</item>
+        <item>Stop</item>
+        <item>Complete</item>
+        <item>Verify</item>
+        <item>Archived</item>
+        <item>Apply Approval</item>
+        <item>Approve</item>
+        <item>Order Escalated</item>
+        <item>Continue</item>
+        <item>Return</item>
+    </string-array>
+
+    <!-- 工单 设备状态 -->
+    <string-array name="workorder_equip_stat">
+        <item>Uncompleted</item>
+        <item>Completed</item>
+    </string-array>
+</resources>

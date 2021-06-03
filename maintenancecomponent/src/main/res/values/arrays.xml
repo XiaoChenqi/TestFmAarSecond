@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="maintenance_Status">
+        <item>未开始</item>
+        <item>处理中</item>
+        <item>已完成</item>
+        <item>遗漏</item>
+    </string-array>
+
+    <!-- 月份转换 -->
+    <string-array name="month_trans">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <!-- 维护工单状态 -->
+    <string-array name="maintenance_workorder_status">
+        <item>已创建</item>
+        <item>已派工</item>
+        <item>处理中</item>
+        <item>已暂停</item>
+        <item>已终止</item>
+        <item>已完成</item>
+        <item>已验证</item>
+        <item>已存档</item>
+        <item>待审批</item>
+        <item>已暂停</item>
+    </string-array>
+    
+</resources>

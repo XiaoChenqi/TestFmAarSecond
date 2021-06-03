@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--工单状态-->
+    <string-array name="workorder_status">
+        <item>已创建</item>
+        <item>已派工</item>
+        <item>处理中</item>
+        <item>已暂停</item>
+        <item>已终止</item>
+        <item>已完成</item>
+        <item>已验证</item>
+        <item>已存档</item>
+        <item>待审批</item>
+        <item>已暂停</item>
+        <!--<item>已暂停(不继续工作)</item>-->
+    </string-array>
+
+    <!--工作状态-->
+    <string-array name="workorder_net_get_worker_stat">
+        <item>未接单</item>
+        <item>已接单</item>
+        <item>已退单</item>
+        <item>已提交</item>
+    </string-array>
+    <!--工单关联缴费单状态-->
+    <string-array name="workorder_payment_stat">
+        <item>未支付</item>
+        <item>已支付</item>
+        <item>已开票</item>
+        <item>已关闭</item>
+        <item>已作废</item>
+    </string-array>
+
+    <!-- 工单预定物资记录状态 -->
+    <string-array name="inventory_reserve_record_status">
+        <item>待审核</item>
+        <item>待出库</item>
+        <item>已驳回</item>
+        <item>已出库</item>
+        <item>取消出库</item>
+        <item>取消预定</item>
+    </string-array>
+
+    <!-- 历史记录步骤 -->
+    <string-array name="workorder_info_history_step">
+        <item>创建</item>
+        <item>派工</item>
+        <item>接单</item>
+        <item>更新</item>
+        <item>暂停</item>
+        <item>终止</item>
+        <item>完成</item>
+        <item>验证</item>
+        <item>存档</item>
+        <item>申请审批</item>
+        <item>批准申请</item>
+        <item>工单升级</item>
+        <item>继续</item>
+        <item>退单</item>
+    </string-array>
+
+    <!-- 工单 设备状态 -->
+    <string-array name="workorder_equip_stat">
+        <item>未完成</item>
+        <item>已完成</item>
+    </string-array>
+
+</resources>

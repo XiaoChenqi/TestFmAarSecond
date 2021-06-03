@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/list_item_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_18">
+
+        <RelativeLayout
+            style="@style/maintenanceInfoStyle">
+
+            <TextView
+                android:id="@+id/maintenance_workorder_code_tv"
+                style="@style/h5_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/maintenance_workorder_status_tv"
+                style="@style/tag_text_style"
+                android:layout_marginLeft="@dimen/dp_33"
+                android:layout_marginRight="@dimen/dp_8"
+                android:layout_toRightOf="@id/maintenance_workorder_code_tv"
+                android:background="@drawable/maintenance_workorder_tag_fill_created_bg"
+                android:text="已创建"/>
+
+            <TextView
+                android:id="@+id/maintenance_workorder_create_time_tv"
+                style="@style/content_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="10-30 10:30"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            style="@style/maintenanceInfoStyle">
+
+            <TextView
+                style="@style/content_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maintenance_person"/>
+
+            <TextView
+                android:id="@+id/maintenance_workorder_applicant_name_tv"
+                style="@style/h5_text_style"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/maintenanceInfoStyle"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/content_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maintenance_location_tip"/>
+
+            <TextView
+                android:id="@+id/maintenance_workorder_position_tv"
+                style="@style/h5_text_style"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/maintenance_workorder_item_dash_line"
+        style="@style/dash_line_style"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"/>
+
+    <View
+        android:id="@+id/maintenance_workorder_item_secant_line"
+        style="@style/secant_line_style"
+        android:visibility="gone"/>
+
+</LinearLayout>
