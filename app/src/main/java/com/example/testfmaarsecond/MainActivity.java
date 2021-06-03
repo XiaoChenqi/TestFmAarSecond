@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.facilityone.wireless.patrol.PatrolActivity;
+//import com.facilityone.wireless.patrol.PatrolActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView();
         initListeners();
     }
@@ -30,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, PatrolActivity.class);
-                MainActivity.this.startActivity(intent);
+//                Intent intent = new Intent(MainActivity.this, PatrolActivity.class);
+//                MainActivity.this.startActivity(intent);
             }
         });
         btn3.setOnClickListener(new View.OnClickListener() {

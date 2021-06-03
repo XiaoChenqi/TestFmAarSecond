@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--创建需求中提交菜单id-->
+    <item name="demand_main_id" type="id"/>
+    <item name="demand_create_upload_id" type="id"/>
+    <item name="demand_evaluate_upload_id" type="id"/>
+</resources>

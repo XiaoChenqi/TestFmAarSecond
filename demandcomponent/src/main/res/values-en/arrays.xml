@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  需求标签状态 -->
+    <string-array name="service_demand_complete_stat">
+        <item>Created</item>
+        <item>Progressing</item>
+        <item>Completed</item>
+        <item>Evaluated</item>
+        <item>Canceled</item>
+    </string-array>
+
+    <!--  需求来源标签状态 -->
+    <string-array name="service_demand_origin_stat">
+        <item>Web</item>
+        <item>SmartPhone</item>
+        <item>WeChat</item>
+        <item>Email</item>
+    </string-array>
+
+    <!--工单状态-->
+    <string-array name="demand_workorder_status">
+        <item>Created</item>
+        <item>Assigned</item>
+        <item>In Progress</item>
+        <item>Pause</item>
+        <item>Terminated</item>
+        <item>Completed</item>
+        <item>Verified</item>
+        <item>Archived</item>
+        <item>In Approving</item>
+        <item>Pause</item>
+        <!--<item>已暂停(不继续工作)</item>-->
+    </string-array>
+
+</resources>

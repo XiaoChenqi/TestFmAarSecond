@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  需求标签状态 -->
+    <string-array name="service_demand_complete_stat">
+        <item>已创建</item>
+        <item>处理中</item>
+        <item>已完成</item>
+        <item>已评价</item>
+        <item>已取消</item>
+    </string-array>
+
+    <!--  需求来源标签状态 -->
+    <string-array name="service_demand_origin_stat">
+        <item>Web</item>
+        <item>手机</item>
+        <item>微信</item>
+        <item>邮件</item>
+    </string-array>
+
+    <!--工单状态-->
+    <string-array name="demand_workorder_status">
+        <item>已创建</item>
+        <item>已派工</item>
+        <item>处理中</item>
+        <item>已暂停</item>
+        <item>已终止</item>
+        <item>已完成</item>
+        <item>已验证</item>
+        <item>已存档</item>
+        <item>待审批</item>
+        <item>已暂停</item>
+        <!--<item>已暂停(不继续工作)</item>-->
+    </string-array>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.qmuiteam.qmui.widget.QMUITopBarLayout
+        android:id="@+id/ui_topbar"
+        style="@style/commonTopbarStyle"/>
+
+    <TextView
+        style="@style/content_title_style1"
+        android:layout_width="match_parent"
+        android:text="@string/demand_score"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16">
+
+        <TextView
+            style="@style/h3_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/demand_evaluate_work_quality"/>
+
+        <com.iarcuschin.simpleratingbar.SimpleRatingBar
+            android:id="@+id/srb_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srb_numberOfStars="5"
+            app:srb_rating="5"
+            app:srb_starCornerRadius="5"
+            app:srb_starSize="@dimen/dp_24"
+            app:srb_stepSize="0.5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16">
+
+        <TextView
+            style="@style/h3_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/demand_evaluate_timeliness"/>
+
+        <com.iarcuschin.simpleratingbar.SimpleRatingBar
+            android:id="@+id/srb_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srb_numberOfStars="5"
+            app:srb_rating="5"
+            app:srb_starCornerRadius="5"
+            app:srb_starSize="@dimen/dp_24"
+            app:srb_stepSize="0.5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16">
+
+        <TextView
+            style="@style/h3_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/demand_evaluate_service_quality"/>
+
+        <com.iarcuschin.simpleratingbar.SimpleRatingBar
+            android:id="@+id/srb_attitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srb_numberOfStars="5"
+            app:srb_rating="5"
+            app:srb_starCornerRadius="5"
+            app:srb_starSize="@dimen/dp_24"
+            app:srb_stepSize="0.5"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/content_title_style1"
+        android:layout_width="match_parent"
+        android:text="@string/demand_desc_tip"/>
+
+    <com.facilityone.wireless.a.arch.widget.EditNumberView
+        android:id="@+id/env_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fm_edit_number_desc="@string/demand_desc_hint"/>
+
+</LinearLayout>

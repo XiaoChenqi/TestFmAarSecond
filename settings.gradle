@@ -3,4 +3,5 @@ include ':app'
 include ':basicres'
 include ':basiclib'
 include ':arch'
-include ":patrolcomponent3"
+include ':patrolcomponent'
+include ':demandcomponent'

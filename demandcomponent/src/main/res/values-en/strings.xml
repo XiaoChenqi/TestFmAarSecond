@@ -1,0 +1,177 @@
+<resources>
+    <string name="demand_app_name">demandcomponent</string>
+    <!--创建新需求-->
+    <string name="demand_create_title">Create</string>
+    <!--服务台-->
+    <string name="demand_demand_title">Requirement</string>
+    <!--需求详情-->
+    <string name="demand_demand_info_title">Requirement Details</string>
+    <!--需求评价-->
+    <string name="demand_evaluate_title">Requirement Evaluate</string>
+    <!--请填写请求人-->
+    <string name="demand_input_person">Please fill in the person who requested it</string>
+    <!--请输入联系电话-->
+    <string name="demand_input_phone">Please enter a phone</string>
+    <!--非法手机号-->
+    <string name="demand_error_mobile_number">Invalid phone</string>
+    <!--请选择需求类型-->
+    <string name="demand_select_demand_type">Please enter a requirement type</string>
+    <!--请填写需求描述-->
+    <string name="demand_input_desc">Please enter description</string>
+    <!--图片-->
+    <string name="demand_picture">Photo</string>
+    <!--拍照-->
+    <string name="demand_take_a_picture">Camera</string>
+    <!--录音-->
+    <string name="demand_audio">Voice</string>
+    <!--视频-->
+    <string name="demand_video">Video</string>
+    <!--是否确定删除该音频-->
+    <string name="demand_sure_delete_video">Whether delete this video or not</string>
+    <!--评价-->
+    <string name="demand_evaluate">Evaluate</string>
+    <!--审批需求-->
+    <string name="demand_approval">Approval Requirement</string>
+    <!--生成工单-->
+    <string name="demand_generate_work_order">Create Order</string>
+    <!--满意度-->
+    <string name="demand_atisfaction">Satisfaction</string>
+    <!--%s 创建于 %s-->
+    <string name="demand_create_by">Created by %1$s at %2$s</string>
+    <!--网页-->
+    <string name="demand_web">Web</string>
+    <!--手机-->
+    <string name="demand_phone">SmartPhone</string>
+    <!--微信-->
+    <string name="demand_wechat">WeChat</string>
+    <!--邮件-->
+    <string name="demand_email">Email</string>
+    <!--钉钉-->
+    <string name="demand_dingding">DingTalk</string>
+    <!--填写处理内容-->
+    <string name="demand_job_content">Enter the processing content</string>
+    <!--请输入处理内容...-->
+    <string name="demand_input_job_content_p">Enter the processing content...</string>
+    <!--请输入处理内容-->
+    <string name="demand_input_job_content">Please enter the processing content</string>
+    <!--无需求人-->
+    <string name="demand_no_demand_person">No Person</string>
+    <!--数据出错-->
+    <string name="demand_data_error">Fail to get data</string>
+    <!--待审批需求-->
+    <string name="demand_uncheck">Unapproved</string>
+    <!--待处理需求-->
+    <string name="demand_unfinish">Uncompleted</string>
+    <!--待评价需求-->
+    <string name="demand_unevaluate">Unevaluated</string>
+    <!--待评价需求-->
+    <string name="demand_query">History</string>
+    <!--需求提交成功-->
+    <string name="demand_create_success">Requirement submit successfully</string>
+    <string name="demand_create_failed">Requirement submit failed</string>
+    <!--需求审批成功-->
+    <string name="demand_approval_success">Requirement approve successfully</string>
+    <!--需求完成成功-->
+    <string name="demand_finish_success">Requirement complete successfully</string>
+    <!--需求评价成功-->
+    <string name="demand_evaluate_success">Requirement evaluate successfully</string>
+
+    <!--无更多数据-->
+    <string name="demand_no_more_data">No data</string>
+    <!--操作失败-->
+    <string name="demand_operate_fail">Operate failed</string>
+    <!--取消-->
+    <string name="demand_cancel">Cancel</string>
+    <!--提示-->
+    <string name="demand_remind">Tips</string>
+    <!--确定-->
+    <string name="demand_sure">Confirm</string>
+    <!--是否确定删除该图片-->
+    <string name="demand_sure_delete_photo">Whether delete this photo or not?</string>
+    <!--你最多可以选择%d张图片-->
+    <string name="demand_select_photo_at_most">You can select at most %d images</string>
+    <!--暂无功能-->
+    <string name="demand_no_function">No function</string>
+    <!--年-->
+    <string name="demand_year">-</string>
+    <!--月-->
+    <string name="demand_month"></string>
+    <!--通过-->
+    <string name="demand_pass">Pass</string>
+    <!--提交...-->
+    <string name="demand_submit">Submit</string>
+    <!--请输入审批意见...-->
+    <string name="demand_input_approval_reason_p">Please enter your approval comments...</string>
+    <!--请输入审批意见-->
+    <string name="demand_input_approval_reason">Please enter your approval comments</string>
+    <!--拒绝-->
+    <string name="demand_refuse">Refuse</string>
+    <!--完成-->
+    <string name="demand_finish">Complete</string>
+    <!--保存-->
+    <string name="demand_save">Save</string>
+    <!--审批-->
+    <string name="demand_approval_title">Approve</string>
+    <!--基本信息-->
+    <string name="demand_basic_info_title">Basic Info</string>
+    <!--联系人-->
+    <string name="demand_contact_title">Contact</string>
+    <!--请输入联系电话-->
+    <string name="demand_create_phone_hint">Enter Phone</string>
+    <!--联系电话-->
+    <string name="demand_create_phone_title">Phone</string>
+    <!--需求类型-->
+    <string name="demand_type_title">Requirement Type</string>
+    <!--需求类型-->
+    <string name="demand_type_tip">Requirement Type:</string>
+    <!--需求描述-->
+    <string name="demand_create_describe_title">Description</string>
+    <!--需求描述：-->
+    <string name="demand_describe_tip">Description:</string>
+    <!--照片-->
+    <string name="demand_photo_title">Photo</string>
+    <!--音频-->
+    <string name="demand_audio_title">Audio</string>
+    <!--视频-->
+    <string name="demand_video_title">Video</string>
+    <!--评分-->
+    <string name="demand_score">Score</string>
+    <!--服务质量-->
+    <string name="demand_evaluate_work_quality">Service Quality:</string>
+    <!--服务速度-->
+    <string name="demand_evaluate_timeliness">Service Speed:</string>
+    <!--服务态度-->
+    <string name="demand_evaluate_service_quality">Service Attitude:</string>
+    <!--描述-->
+    <string name="demand_desc_tip">Description</string>
+    <!--请输入描述内容...-->
+    <string name="demand_desc_hint">Please enter description...</string>
+    <!--请输入需求描述...-->
+    <string name="demand_create_describe_hint">Please enter description...</string>
+    <!--需求信息-->
+    <string name="demand_info_title">Base Info</string>
+    <!--需求来源：-->
+    <string name="demand_origin_tip">Source:</string>
+    <!--需求位置：-->
+    <string name="demand_location_tip">Location:</string>
+    <!--预约时间：-->
+    <string name="demand_reserve_time_tip">Reserve Time：</string>
+    <!--关联工单-->
+    <string name="demand_relate_work_order_title">Related Order</string>
+    <!--关联工单-->
+    <string name="demand_relate_work_order_title_tip">Related Order:</string>
+    <!--附件-->
+    <string name="contract_attachment_title">Attachment</string>
+    <!--处理记录-->
+    <string name="demand_handle_record_title">Record</string>
+    <!--填写处理内容-->
+    <string name="demand_work_content">Enter the processing content</string>
+    <!--立即查看-->
+    <string name="demand_look_tip">Show More Details</string>
+    <!--该需求有工单未完成，请先完成工单！-->
+    <string name="demand_relate_work_order_error_tip">There is a work order for this demand is not completed,please complete the work order first！</string>
+    <!--是否修改需求类型-->
+    <string name="demand_edit_type">Whether to modify the type</string>
+    <!--请选择需求类型-->
+    <string name="demand_select_requirement_type_hint">Select Requirement Type</string>
+</resources>

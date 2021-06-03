@@ -73,14 +73,8 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
 
-
-    //api 'com.github.XiaoChenqi:TestFmAarSecond:4.1'
-    api project(':patrolcomponent3')
+    api project(':demandcomponent')
     //api project(':arch')
-     //api project(':testlib2')
 
-    //依赖aar和远程基础库
-//    implementation(name: 'demandcomponent', ext: 'aar')
-//    api 'com.github.xh2015.AarTest:arch:1.0.2'
 
 }
