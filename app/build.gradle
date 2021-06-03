@@ -31,10 +31,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    //implementation 'com.github.XiaoChenqi:TestFmAarSecond:4'
 
-//    implementation 'com.github.XiaoChenqi:TestFmAarSecond:basiclib'
-//    implementation 'com.github.XiaoChenqi:TestFmAarSecond:basicres'
-    //implementation 'com.github.XiaoChenqi:basiclib:3.4'
-    //implementation 'com.github.XiaoChenqi:basicres:3.4'
+    api 'com.github.XiaoChenqi:TestFmAarSecond:4.1'
+
+//    com.github.XiaoChenqi.TestFmAarSecond:testlib1:4.1
+//    com.github.XiaoChenqi.TestFmAarSecond:basicres:4.1
+//    com.github.XiaoChenqi.TestFmAarSecond:basiclib:4.1
+//    com.github.XiaoChenqi.TestFmAarSecond:arch:4.1
 }

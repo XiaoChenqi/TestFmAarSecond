@@ -51,12 +51,9 @@ dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
 //    api project(':basiclib')
 ////    api project(':basicres')
-//    compile 'com.facility.wireless:basiclib:1.0.6'
-//    compile 'com.facility.wireless:basicres:1.0.0'
-//    api 'com.github.XiaoChenqi:basiclib:3.4'
-//    api 'com.github.XiaoChenqi:basicres:3.4'
-    api 'com.github.xh2015.AarTest:basicres:1.0.1'
-    api 'com.github.xh2015.AarTest:basiclib:1.0.1'
+    //远程aar必须使用下面的方式
+    api 'com.github.XiaoChenqi.TestFmAarSecond:basicres:3.4'
+    api 'com.github.XiaoChenqi.TestFmAarSecond:basiclib:3.4'
 }
 
 //uploadArchives {
