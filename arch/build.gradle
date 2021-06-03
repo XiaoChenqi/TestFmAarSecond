@@ -49,26 +49,30 @@ android {
 
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
-    api project(':basiclib')
-    api project(':basicres')
+//    api project(':basiclib')
+////    api project(':basicres')
 //    compile 'com.facility.wireless:basiclib:1.0.6'
 //    compile 'com.facility.wireless:basicres:1.0.0'
+//    api 'com.github.XiaoChenqi:basiclib:3.4'
+//    api 'com.github.XiaoChenqi:basicres:3.4'
+    api 'com.github.xh2015.AarTest:basicres:1.0.1'
+    api 'com.github.xh2015.AarTest:basiclib:1.0.1'
 }
 
-uploadArchives {
-    configuration = configurations.archives
-    repositories {
-        mavenDeployer {
-            repository(url: 'http://192.168.1.146:8080/nexus/content/repositories/com.facility.wireless/') {
-                authentication(userName: 'admin', password: 'admin123')
-            }
-            pom.project {
-                version '1.0.6'
-                artifactId 'arch'
-                groupId 'com.facility.wireless'
-                packaging 'aar'
-                description 'init version 1.0.6'
-            }
-        }
-    }
-}
+//uploadArchives {
+//    configuration = configurations.archives
+//    repositories {
+//        mavenDeployer {
+//            repository(url: 'http://192.168.1.146:8080/nexus/content/repositories/com.facility.wireless/') {
+//                authentication(userName: 'admin', password: 'admin123')
+//            }
+//            pom.project {
+//                version '1.0.6'
+//                artifactId 'arch'
+//                groupId 'com.facility.wireless'
+//                packaging 'aar'
+//                description 'init version 1.0.6'
+//            }
+//        }
+//    }
+//}
