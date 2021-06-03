@@ -31,7 +31,10 @@ android {
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
-    api project(':arch')
+    //api project(':arch')
+
+    api 'com.github.XiaoChenqi.TestFmAarSecond:arch:3.4'
+
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
