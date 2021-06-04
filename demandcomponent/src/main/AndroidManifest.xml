@@ -2,11 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <application android:allowBackup="true"
-                 android:label="@string/demand_app_name"
-                 android:theme="@style/AppTheme.NoActionBar"
-        tools:replace="android:label, android:theme"
-                 android:supportsRtl="true">
+    <application >
 
         <activity android:name=".DemandActivity"
                   android:screenOrientation="portrait"
