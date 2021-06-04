@@ -67,7 +67,9 @@ public class DemandListAdapter extends BaseQuickAdapter<DemandService.DemandBean
                         helper.setBackgroundRes(R.id.demand_origin_tv, R.drawable.service_control_orgin_email);
                         break;
                         case DemandConstant.DEMAND_ORIGIN_DINGDING:
-                        helper.setBackgroundRes(R.id.demand_origin_tv, R.drawable.service_control_origin_dingding);
+                        //TODO    xcq
+                        helper.setBackgroundRes(R.id.demand_origin_tv, R.drawable.service_control_orgin_email);
+                        //helper.setBackgroundRes(R.id.demand_origin_tv, R.drawable.service_control_origin_dingding);
                         break;
                 }
             } else {
