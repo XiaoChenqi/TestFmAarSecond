@@ -76,6 +76,7 @@ dependencies {
     api project(':demandcomponent')
     api project(':maintenancecomponent')
     api project(':workordercomponent')
+    implementation project(path: ':patrolcomponent')
     //api project(':arch')
 
 
