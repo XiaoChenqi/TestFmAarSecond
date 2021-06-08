@@ -18,7 +18,7 @@ import static org.junit.Assert.*;
 public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() throws Exception {
-        // Context of the app under test.
+        // Context of the app under test.xcq
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.facilityone.wireless.maintenance.test", appContext.getPackageName());
